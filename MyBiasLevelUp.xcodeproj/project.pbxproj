@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F2888C2DB505F9C7DE302E /* schedules.json in Resources */ = {isa = PBXBuildFile; fileRef = CD0D478B50E2E8523F6C272C /* schedules.json */; };
+		053E0E089BA22FAA207A2623 /* MyBiasLevelUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142900B5928CAE5945D95829 /* MyBiasLevelUpUITests.swift */; };
+		0DAA06DE46427318931BF1F4 /* ServerCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA32DA81FF01BF257BC87330 /* ServerCalendarTests.swift */; };
+		13214C9B3569F9C1954B6DDB /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988A029D26603CE31260F03 /* RootTabView.swift */; };
+		226D5CDD04BEF0D37AE21B2E /* CharacterFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE56F9ECB6C79B1D738D62D6 /* CharacterFilterTests.swift */; };
+		2502CE10A65E874877F5D2B3 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B3B086956D41FE9836E65 /* CharacterDetailView.swift */; };
+		2FF02C0A03122AB48C515A46 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3227EB538EB5BFC53F074959 /* SettingsView.swift */; };
+		32453C3F85A5A07E7914BE0A /* DomainAvailabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063B4FF1C0E1C612BC9B48A /* DomainAvailabilityService.swift */; };
+		35228480E2129B1C54C7E2DC /* weapons.json in Resources */ = {isa = PBXBuildFile; fileRef = 454D0E913A29D34B14A56B30 /* weapons.json */; };
+		36C320EA7B025ADE07E2ED7B /* DayDomainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366C67EEB87D2AC21D381AC /* DayDomainView.swift */; };
+		3FEF765A3D8DD4A0B64EAEC1 /* NationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD44FB6377A0CF4C97D90A /* NationType.swift */; };
+		44D8A8F5DA9282252D4CAF85 /* NotificationContentBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD008663498B51C4AB06FBD4 /* NotificationContentBuilderTests.swift */; };
+		49BD00A998254CCE1FCE8337 /* UNUserNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D354B727FEB0F0908360B5 /* UNUserNotificationScheduler.swift */; };
+		6561BCD41A4744613F458ECF /* MyBiasLevelUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE4872E024A180168FB7D /* MyBiasLevelUpApp.swift */; };
+		6C7C4871B3AB98487C376DD3 /* ElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A579527FA76E223C2ED2E0E6 /* ElementType.swift */; };
+		6CFCC049874FB52A38F7FCA7 /* GameDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC922F15C1C39B9DB31C35 /* GameDataRepository.swift */; };
+		70681BCE9D281656E86F445D /* NotificationScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8A0CDB4C8646DFBB3000A /* NotificationScheduling.swift */; };
+		75748BB9E2A7C97E90749A5E /* ServerCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EF5284B70FCC6A69ED636F /* ServerCalendar.swift */; };
+		7EE808EE6A7EFA04B1B03A48 /* DomainSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85954FFDB6A66DF00965997 /* DomainSchedule.swift */; };
+		80C85CAA645552929C56BA3D /* UserDefaultsSelectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF97F5151987AAB9E35C2B9 /* UserDefaultsSelectionStore.swift */; };
+		87B0C4F4FEFBF2C315F8120C /* BundleGameDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D0C1477639E88A3ECAC81 /* BundleGameDataRepository.swift */; };
+		8F8800203C764C0AA1D5EACD /* CharacterFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC6FCF83747E8015E34A9F /* CharacterFilter.swift */; };
+		905789ACAC446C1CB9CCE73E /* SelectionStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BEB0EB2FA311289E0199B6 /* SelectionStoreTests.swift */; };
+		9381671AE96B058C74107DEA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282ECCBC85D33FE050309E8 /* Character.swift */; };
+		991FA89DE4D3397F98FFABDC /* NotificationContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E3068C2648CD6BAC71ACB /* NotificationContentBuilder.swift */; };
+		9EAEB9756367FC73FF74B092 /* WeaponSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13C773EA24442590893F2C /* WeaponSelectionView.swift */; };
+		A015692BC26B216658A63556 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C8B956E346112940927CF /* CharacterListView.swift */; };
+		A8B64FC79B796DA89BA21C8E /* UserDefaultsPreferenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAFC80A91BE7444B4F2AF3 /* UserDefaultsPreferenceStore.swift */; };
+		AA798CB0EE8EAAED88FC7D64 /* GameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03C8F4DB299F53923F65A9 /* GameCatalog.swift */; };
+		AE3A7FD425B21494003ADF0F /* WeekdayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84CF980C9D0F9265BB7AA0 /* WeekdayType.swift */; };
+		B0D41314CDEA7F66BF195956 /* WeaponCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00AD79761635477150B0B6 /* WeaponCardView.swift */; };
+		B43BE6BB4CDABFE1B55D720F /* DomainAvailabilityServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41B3648F486B13C7F4EA32 /* DomainAvailabilityServiceTests.swift */; };
+		B72CFA657A4526686511A94A /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 06B4B9B47F85B5FBC2D25B4F /* characters.json */; };
+		BA5C3CBC28D5210CDA1FCBFE /* TagChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D12586747E7FABAA44797 /* TagChip.swift */; };
+		BE15C338678B08ADA03CCD09 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C2C6FEB16372DFF8C790CC /* CharacterCardView.swift */; };
+		C4E92CFB8E319BE478CADC04 /* CharacterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6CB107AF145D9CBD3E86F /* CharacterImageView.swift */; };
+		CBB4F6A63303E3D28C3E9708 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA3C596D29F2F01027EE89 /* Weapon.swift */; };
+		E965C87061A2EF62344D07B6 /* UserSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BE72430C5BB09D6CCB67DE /* UserSelection.swift */; };
+		EE68B10CEC1E3D33F9F04530 /* NotificationPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788ACA60A6703744F45C049 /* NotificationPreference.swift */; };
+		F376FF5C84360F1D701615CA /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6298985A6AE779C042202 /* AppStore.swift */; };
+		FFB089579E2973524482DF6E /* Images in Resources */ = {isa = PBXBuildFile; fileRef = C6ECDDFB2C507B8B23910304 /* Images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E4320E1DBFE66490C069FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5313DDB04C566D80B77BCA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925D33AFBB711867C556CFF4;
+			remoteInfo = MyBiasLevelUp;
+		};
+		DD355A3EE44A0ED92E3BC7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5313DDB04C566D80B77BCA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925D33AFBB711867C556CFF4;
+			remoteInfo = MyBiasLevelUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B4B9B47F85B5FBC2D25B4F /* characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
+		08C2C6FEB16372DFF8C790CC /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
+		0C4D0C1477639E88A3ECAC81 /* BundleGameDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleGameDataRepository.swift; sourceTree = "<group>"; };
+		142900B5928CAE5945D95829 /* MyBiasLevelUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBiasLevelUpUITests.swift; sourceTree = "<group>"; };
+		154D12586747E7FABAA44797 /* TagChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagChip.swift; sourceTree = "<group>"; };
+		17EF5284B70FCC6A69ED636F /* ServerCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCalendar.swift; sourceTree = "<group>"; };
+		18ABE4872E024A180168FB7D /* MyBiasLevelUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBiasLevelUpApp.swift; sourceTree = "<group>"; };
+		2788ACA60A6703744F45C049 /* NotificationPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreference.swift; sourceTree = "<group>"; };
+		2F6C8B956E346112940927CF /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		3227EB538EB5BFC53F074959 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3282ECCBC85D33FE050309E8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		36EC6FCF83747E8015E34A9F /* CharacterFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFilter.swift; sourceTree = "<group>"; };
+		38BE72430C5BB09D6CCB67DE /* UserSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelection.swift; sourceTree = "<group>"; };
+		3988A029D26603CE31260F03 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		3F00AD79761635477150B0B6 /* WeaponCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCardView.swift; sourceTree = "<group>"; };
+		3F5E3068C2648CD6BAC71ACB /* NotificationContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationContentBuilder.swift; sourceTree = "<group>"; };
+		4366C67EEB87D2AC21D381AC /* DayDomainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDomainView.swift; sourceTree = "<group>"; };
+		454D0E913A29D34B14A56B30 /* weapons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weapons.json; sourceTree = "<group>"; };
+		517B3B086956D41FE9836E65 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		53EAFC80A91BE7444B4F2AF3 /* UserDefaultsPreferenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPreferenceStore.swift; sourceTree = "<group>"; };
+		59D354B727FEB0F0908360B5 /* UNUserNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNUserNotificationScheduler.swift; sourceTree = "<group>"; };
+		5CDA2D295EE4048C53D2BF88 /* MyBiasLevelUpUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MyBiasLevelUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE8A0CDB4C8646DFBB3000A /* NotificationScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduling.swift; sourceTree = "<group>"; };
+		6D03C8F4DB299F53923F65A9 /* GameCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalog.swift; sourceTree = "<group>"; };
+		7D3A7DA7947A719ABF92D01D /* MyBiasLevelUpTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MyBiasLevelUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8063B4FF1C0E1C612BC9B48A /* DomainAvailabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAvailabilityService.swift; sourceTree = "<group>"; };
+		92DC922F15C1C39B9DB31C35 /* GameDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataRepository.swift; sourceTree = "<group>"; };
+		A1AA3C596D29F2F01027EE89 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		A579527FA76E223C2ED2E0E6 /* ElementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementType.swift; sourceTree = "<group>"; };
+		A7E6298985A6AE779C042202 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		ADF6CB107AF145D9CBD3E86F /* CharacterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImageView.swift; sourceTree = "<group>"; };
+		AE56F9ECB6C79B1D738D62D6 /* CharacterFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFilterTests.swift; sourceTree = "<group>"; };
+		C0BEB0EB2FA311289E0199B6 /* SelectionStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionStoreTests.swift; sourceTree = "<group>"; };
+		C6ECDDFB2C507B8B23910304 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = Resources/Images; sourceTree = SOURCE_ROOT; };
+		CB41B3648F486B13C7F4EA32 /* DomainAvailabilityServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAvailabilityServiceTests.swift; sourceTree = "<group>"; };
+		CD0D478B50E2E8523F6C272C /* schedules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schedules.json; sourceTree = "<group>"; };
+		CF84CF980C9D0F9265BB7AA0 /* WeekdayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayType.swift; sourceTree = "<group>"; };
+		D85954FFDB6A66DF00965997 /* DomainSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainSchedule.swift; sourceTree = "<group>"; };
+		D89ACA84B574945A41E7DED5 /* MyBiasLevelUp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyBiasLevelUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF97F5151987AAB9E35C2B9 /* UserDefaultsSelectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSelectionStore.swift; sourceTree = "<group>"; };
+		EA32DA81FF01BF257BC87330 /* ServerCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCalendarTests.swift; sourceTree = "<group>"; };
+		F3CD44FB6377A0CF4C97D90A /* NationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationType.swift; sourceTree = "<group>"; };
+		FA13C773EA24442590893F2C /* WeaponSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSelectionView.swift; sourceTree = "<group>"; };
+		FD008663498B51C4AB06FBD4 /* NotificationContentBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationContentBuilderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0315C4D0A00E5371150DB0BB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E3026450D87D1231B13182C5 /* Models */,
+				93E81813D475A526ACADDA84 /* Repositories */,
+				E11AA6FCCF6F2FE6A6EA6ED8 /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		056B7D207E1363AAC3AD3F02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				08C2C6FEB16372DFF8C790CC /* CharacterCardView.swift */,
+				ADF6CB107AF145D9CBD3E86F /* CharacterImageView.swift */,
+				154D12586747E7FABAA44797 /* TagChip.swift */,
+				3F00AD79761635477150B0B6 /* WeaponCardView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		06C9C9B3B5554B714A2AA1EA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3227EB538EB5BFC53F074959 /* SettingsView.swift */,
+				FA13C773EA24442590893F2C /* WeaponSelectionView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		13485282E0EB79711A1A13F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CD35C254A5F808CDD368E23C /* Notifications */,
+				E10E9A0DD2753A4BF2D10E9A /* Repositories */,
+				6D4104C32D5935C44D4D8047 /* Storage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		36DDC6FAFFC713633CBF17FB /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				AE56F9ECB6C79B1D738D62D6 /* CharacterFilterTests.swift */,
+				CB41B3648F486B13C7F4EA32 /* DomainAvailabilityServiceTests.swift */,
+				FD008663498B51C4AB06FBD4 /* NotificationContentBuilderTests.swift */,
+				C0BEB0EB2FA311289E0199B6 /* SelectionStoreTests.swift */,
+				EA32DA81FF01BF257BC87330 /* ServerCalendarTests.swift */,
+			);
+			name = Unit;
+			path = Tests/Unit;
+			sourceTree = "<group>";
+		};
+		3AD17A047DD68FD6D9505CA2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6298985A6AE779C042202 /* AppStore.swift */,
+				18ABE4872E024A180168FB7D /* MyBiasLevelUpApp.swift */,
+				3988A029D26603CE31260F03 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4A769393099027E1AD64F426 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				06B4B9B47F85B5FBC2D25B4F /* characters.json */,
+				CD0D478B50E2E8523F6C272C /* schedules.json */,
+				454D0E913A29D34B14A56B30 /* weapons.json */,
+			);
+			name = Data;
+			path = Resources/Data;
+			sourceTree = "<group>";
+		};
+		6D4104C32D5935C44D4D8047 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				53EAFC80A91BE7444B4F2AF3 /* UserDefaultsPreferenceStore.swift */,
+				DCF97F5151987AAB9E35C2B9 /* UserDefaultsSelectionStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		82DB60AE5CDD297F24799439 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				517B3B086956D41FE9836E65 /* CharacterDetailView.swift */,
+				2F6C8B956E346112940927CF /* CharacterListView.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		93E81813D475A526ACADDA84 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				92DC922F15C1C39B9DB31C35 /* GameDataRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9802FC96BDD4F92BAEB5D9A6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				142900B5928CAE5945D95829 /* MyBiasLevelUpUITests.swift */,
+			);
+			name = UI;
+			path = Tests/UI;
+			sourceTree = "<group>";
+		};
+		A7115A0F08818AF61B61D838 = {
+			isa = PBXGroup;
+			children = (
+				C6ECDDFB2C507B8B23910304 /* Images */,
+				3AD17A047DD68FD6D9505CA2 /* App */,
+				13485282E0EB79711A1A13F6 /* Data */,
+				4A769393099027E1AD64F426 /* Data */,
+				0315C4D0A00E5371150DB0BB /* Domain */,
+				C41BEA9DAAACB7BFE7C2F96F /* Features */,
+				9802FC96BDD4F92BAEB5D9A6 /* UI */,
+				36DDC6FAFFC713633CBF17FB /* Unit */,
+				E742F9CC9F4272BB86F0D4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41BEA9DAAACB7BFE7C2F96F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				82DB60AE5CDD297F24799439 /* Characters */,
+				056B7D207E1363AAC3AD3F02 /* Common */,
+				EFE44377FE4557EDAA6B1CD6 /* Days */,
+				06C9C9B3B5554B714A2AA1EA /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CD35C254A5F808CDD368E23C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				59D354B727FEB0F0908360B5 /* UNUserNotificationScheduler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		E10E9A0DD2753A4BF2D10E9A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0C4D0C1477639E88A3ECAC81 /* BundleGameDataRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E11AA6FCCF6F2FE6A6EA6ED8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8063B4FF1C0E1C612BC9B48A /* DomainAvailabilityService.swift */,
+				3F5E3068C2648CD6BAC71ACB /* NotificationContentBuilder.swift */,
+				6BE8A0CDB4C8646DFBB3000A /* NotificationScheduling.swift */,
+				17EF5284B70FCC6A69ED636F /* ServerCalendar.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E3026450D87D1231B13182C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3282ECCBC85D33FE050309E8 /* Character.swift */,
+				36EC6FCF83747E8015E34A9F /* CharacterFilter.swift */,
+				D85954FFDB6A66DF00965997 /* DomainSchedule.swift */,
+				A579527FA76E223C2ED2E0E6 /* ElementType.swift */,
+				6D03C8F4DB299F53923F65A9 /* GameCatalog.swift */,
+				F3CD44FB6377A0CF4C97D90A /* NationType.swift */,
+				2788ACA60A6703744F45C049 /* NotificationPreference.swift */,
+				38BE72430C5BB09D6CCB67DE /* UserSelection.swift */,
+				A1AA3C596D29F2F01027EE89 /* Weapon.swift */,
+				CF84CF980C9D0F9265BB7AA0 /* WeekdayType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E742F9CC9F4272BB86F0D4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89ACA84B574945A41E7DED5 /* MyBiasLevelUp.app */,
+				7D3A7DA7947A719ABF92D01D /* MyBiasLevelUpTests.xctest */,
+				5CDA2D295EE4048C53D2BF88 /* MyBiasLevelUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE44377FE4557EDAA6B1CD6 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				4366C67EEB87D2AC21D381AC /* DayDomainView.swift */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AC712F96BC5926D86B2E0F /* MyBiasLevelUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B96C949A5564B841C089EB2 /* Build configuration list for PBXNativeTarget "MyBiasLevelUpUITests" */;
+			buildPhases = (
+				D0E9D3FF0FDE944D748A1BC6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC3CC8930530978531194DF /* PBXTargetDependency */,
+			);
+			name = MyBiasLevelUpUITests;
+			packageProductDependencies = (
+			);
+			productName = MyBiasLevelUpUITests;
+			productReference = 5CDA2D295EE4048C53D2BF88 /* MyBiasLevelUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0C2586A66F6A58D127E6FBDE /* MyBiasLevelUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718C335D9BD5690B75EE0086 /* Build configuration list for PBXNativeTarget "MyBiasLevelUpTests" */;
+			buildPhases = (
+				AE1059ABBEF96F374601549E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFF56FA4DBCD80491FB3F09 /* PBXTargetDependency */,
+			);
+			name = MyBiasLevelUpTests;
+			packageProductDependencies = (
+			);
+			productName = MyBiasLevelUpTests;
+			productReference = 7D3A7DA7947A719ABF92D01D /* MyBiasLevelUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925D33AFBB711867C556CFF4 /* MyBiasLevelUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58952D9D37317636BFD164F /* Build configuration list for PBXNativeTarget "MyBiasLevelUp" */;
+			buildPhases = (
+				5492BD2C879A3ACEAE850427 /* Sources */,
+				3803DA2C08AAB1BD0D2DE6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBiasLevelUp;
+			packageProductDependencies = (
+			);
+			productName = MyBiasLevelUp;
+			productReference = D89ACA84B574945A41E7DED5 /* MyBiasLevelUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5313DDB04C566D80B77BCA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04AC712F96BC5926D86B2E0F = {
+						TestTargetID = 925D33AFBB711867C556CFF4;
+					};
+					925D33AFBB711867C556CFF4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31DC322B8960B57C207095CA /* Build configuration list for PBXProject "MyBiasLevelUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A7115A0F08818AF61B61D838;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925D33AFBB711867C556CFF4 /* MyBiasLevelUp */,
+				0C2586A66F6A58D127E6FBDE /* MyBiasLevelUpTests */,
+				04AC712F96BC5926D86B2E0F /* MyBiasLevelUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3803DA2C08AAB1BD0D2DE6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB089579E2973524482DF6E /* Images in Resources */,
+				B72CFA657A4526686511A94A /* characters.json in Resources */,
+				01F2888C2DB505F9C7DE302E /* schedules.json in Resources */,
+				35228480E2129B1C54C7E2DC /* weapons.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5492BD2C879A3ACEAE850427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F376FF5C84360F1D701615CA /* AppStore.swift in Sources */,
+				87B0C4F4FEFBF2C315F8120C /* BundleGameDataRepository.swift in Sources */,
+				9381671AE96B058C74107DEA /* Character.swift in Sources */,
+				BE15C338678B08ADA03CCD09 /* CharacterCardView.swift in Sources */,
+				2502CE10A65E874877F5D2B3 /* CharacterDetailView.swift in Sources */,
+				8F8800203C764C0AA1D5EACD /* CharacterFilter.swift in Sources */,
+				C4E92CFB8E319BE478CADC04 /* CharacterImageView.swift in Sources */,
+				A015692BC26B216658A63556 /* CharacterListView.swift in Sources */,
+				36C320EA7B025ADE07E2ED7B /* DayDomainView.swift in Sources */,
+				32453C3F85A5A07E7914BE0A /* DomainAvailabilityService.swift in Sources */,
+				7EE808EE6A7EFA04B1B03A48 /* DomainSchedule.swift in Sources */,
+				6C7C4871B3AB98487C376DD3 /* ElementType.swift in Sources */,
+				AA798CB0EE8EAAED88FC7D64 /* GameCatalog.swift in Sources */,
+				6CFCC049874FB52A38F7FCA7 /* GameDataRepository.swift in Sources */,
+				6561BCD41A4744613F458ECF /* MyBiasLevelUpApp.swift in Sources */,
+				3FEF765A3D8DD4A0B64EAEC1 /* NationType.swift in Sources */,
+				991FA89DE4D3397F98FFABDC /* NotificationContentBuilder.swift in Sources */,
+				EE68B10CEC1E3D33F9F04530 /* NotificationPreference.swift in Sources */,
+				70681BCE9D281656E86F445D /* NotificationScheduling.swift in Sources */,
+				13214C9B3569F9C1954B6DDB /* RootTabView.swift in Sources */,
+				75748BB9E2A7C97E90749A5E /* ServerCalendar.swift in Sources */,
+				2FF02C0A03122AB48C515A46 /* SettingsView.swift in Sources */,
+				BA5C3CBC28D5210CDA1FCBFE /* TagChip.swift in Sources */,
+				49BD00A998254CCE1FCE8337 /* UNUserNotificationScheduler.swift in Sources */,
+				A8B64FC79B796DA89BA21C8E /* UserDefaultsPreferenceStore.swift in Sources */,
+				80C85CAA645552929C56BA3D /* UserDefaultsSelectionStore.swift in Sources */,
+				E965C87061A2EF62344D07B6 /* UserSelection.swift in Sources */,
+				CBB4F6A63303E3D28C3E9708 /* Weapon.swift in Sources */,
+				B0D41314CDEA7F66BF195956 /* WeaponCardView.swift in Sources */,
+				9EAEB9756367FC73FF74B092 /* WeaponSelectionView.swift in Sources */,
+				AE3A7FD425B21494003ADF0F /* WeekdayType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1059ABBEF96F374601549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226D5CDD04BEF0D37AE21B2E /* CharacterFilterTests.swift in Sources */,
+				B43BE6BB4CDABFE1B55D720F /* DomainAvailabilityServiceTests.swift in Sources */,
+				44D8A8F5DA9282252D4CAF85 /* NotificationContentBuilderTests.swift in Sources */,
+				905789ACAC446C1CB9CCE73E /* SelectionStoreTests.swift in Sources */,
+				0DAA06DE46427318931BF1F4 /* ServerCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E9D3FF0FDE944D748A1BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053E0E089BA22FAA207A2623 /* MyBiasLevelUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AFF56FA4DBCD80491FB3F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925D33AFBB711867C556CFF4 /* MyBiasLevelUp */;
+			targetProxy = 2E4320E1DBFE66490C069FAA /* PBXContainerItemProxy */;
+		};
+		DDC3CC8930530978531194DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925D33AFBB711867C556CFF4 /* MyBiasLevelUp */;
+			targetProxy = DD355A3EE44A0ED92E3BC7DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19E0BDE9EF15470CEF92033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBiasLevelUp;
+			};
+			name = Release;
+		};
+		3FB1677E867375D75BC171F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyBiasLevelUp;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		415E6AB1A0C25926E1DEAF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		5178801C9E6C08633550247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyBiasLevelUp;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789FEECF018FA013AE96D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBiasLevelUp.app/MyBiasLevelUp";
+			};
+			name = Debug;
+		};
+		B973B4C51AA0C441F75720C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E6CE334809DE54C1376D81C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyBiasLevelUp;
+			};
+			name = Debug;
+		};
+		E7470EAEE23F8C7C6D15B0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybiaslevelup.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBiasLevelUp.app/MyBiasLevelUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DC322B8960B57C207095CA /* Build configuration list for PBXProject "MyBiasLevelUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B973B4C51AA0C441F75720C2 /* Debug */,
+				415E6AB1A0C25926E1DEAF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B96C949A5564B841C089EB2 /* Build configuration list for PBXNativeTarget "MyBiasLevelUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CE334809DE54C1376D81C1 /* Debug */,
+				19E0BDE9EF15470CEF92033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		718C335D9BD5690B75EE0086 /* Build configuration list for PBXNativeTarget "MyBiasLevelUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789FEECF018FA013AE96D1CF /* Debug */,
+				E7470EAEE23F8C7C6D15B0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D58952D9D37317636BFD164F /* Build configuration list for PBXNativeTarget "MyBiasLevelUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5178801C9E6C08633550247B /* Debug */,
+				3FB1677E867375D75BC171F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5313DDB04C566D80B77BCA09 /* Project object */;
+}

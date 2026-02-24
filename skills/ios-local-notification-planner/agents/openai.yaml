@@ -1,0 +1,3 @@
+display_name: iOS Notification Planner
+short_description: Local reminder scheduling for iOS weekday notifications.
+default_prompt: Design and implement local notification scheduling for this iOS app.

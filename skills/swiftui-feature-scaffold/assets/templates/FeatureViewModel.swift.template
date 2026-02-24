@@ -1,0 +1,11 @@
+import Foundation
+
+@MainActor
+final class __FEATURE__ViewModel: ObservableObject {
+    @Published private(set) var isLoading = false
+
+    func onAppear() async {
+        isLoading = true
+        defer { isLoading = false }
+    }
+}

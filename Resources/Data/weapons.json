@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "ultimate_overlords_mega_magic_sword",
+    "name": "「슈퍼 울트라 패왕 마검」",
+    "rarity": 4,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "the_catch",
+    "name": "「어획」",
+    "rarity": 4,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "twin_nephrite",
+    "name": "1급 보옥",
+    "rarity": 3,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "beacon_of_the_reed_sea",
+    "name": "갈대 바다의 등대",
+    "rarity": 5,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "sword_of_descension",
+    "name": "강림의 검",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "iron_sting",
+    "name": "강철 벌침",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "compound_bow",
+    "name": "강철궁",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "ferrous_shadow",
+    "name": "강철의 그림자",
+    "rarity": 3,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "range_gauge",
+    "name": "거리 측정기",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "blackmarrow_lantern",
+    "name": "검은 골수의 등불",
+    "rarity": 4,
+    "materialId": "artful_device_fragment"
+  },
+  {
+    "id": "athame_artis",
+    "name": "검은 침식",
+    "rarity": 5,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "sturdy_bone",
+    "name": "견고한 골검",
+    "rarity": 4,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "deathmatch",
+    "name": "결투의 창",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "song_of_stillness",
+    "name": "고요한 노래",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "serenitys_call",
+    "name": "고요한 휘파람",
+    "rarity": 4,
+    "materialId": "artful_device_fragment"
+  },
+  {
+    "id": "splendor_of_tranquil_waters",
+    "name": "고요히 샘솟는 빛",
+    "rarity": 5,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "prototype_archaic",
+    "name": "고화 프로토타입",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "recurve_bow",
+    "name": "곡궁",
+    "rarity": 3,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "rightful_reward",
+    "name": "공의의 보상",
+    "rarity": 4,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "vortex_vanquisher",
+    "name": "관홍의 창",
+    "rarity": 5,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "snare_hook",
+    "name": "그물을 뚫는 화살",
+    "rarity": 4,
+    "materialId": "ember_of_long_night_flint"
+  },
+  {
+    "id": "polar_star",
+    "name": "극지의 별",
+    "rarity": 5,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "etherlight_spindlelute",
+    "name": "금빛 류트",
+    "rarity": 4,
+    "materialId": "sundered_glory_of_the_far_north_scions"
+  },
+  {
+    "id": "raven_bow",
+    "name": "까마귀깃 활",
+    "rarity": 3,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "mailed_flower",
+    "name": "꽃 장식 대검",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "toukabou_shigure",
+    "name": "꽃잎비",
+    "rarity": 4,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "flower_wreathed_feathers",
+    "name": "꽃장식 깃",
+    "rarity": 4,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "ibis_piercer",
+    "name": "꿰뚫는 따오기 부리",
+    "rarity": 4,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "ballad_of_the_boundless_blue",
+    "name": "끝없는 쪽빛의 노래",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "sunny_morning_sleep_in",
+    "name": "나른한 새해",
+    "rarity": 5,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "missive_windspear",
+    "name": "날카로운 바람의 서신",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "seasoned_hunters_bow",
+    "name": "노련의 사냥활",
+    "rarity": 2,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "fading_twilight",
+    "name": "노을",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "rust",
+    "name": "녹슨 활",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "wolf_fang",
+    "name": "늑대 송곳니",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "wolfs_gravestone",
+    "name": "늑대의 말로",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "moonpiercer",
+    "name": "달을 꿰뚫는 화살",
+    "rarity": 4,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "moonweavers_dawn",
+    "name": "달을 엮는 자의 새벽빛",
+    "rarity": 4,
+    "materialId": "sundered_glory_of_the_far_north_scions"
+  },
+  {
+    "id": "prototype_crescent",
+    "name": "담월 프로토타입",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "earth_shaker",
+    "name": "대지를 울리는 자",
+    "rarity": 4,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "talking_stick",
+    "name": "대화봉",
+    "rarity": 4,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "dodoco_tales",
+    "name": "도도코 이야기집",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "waveriding_whirl",
+    "name": "돌아오는 파도",
+    "rarity": 4,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "alley_hunter",
+    "name": "뒷골목 사냥꾼",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "the_alley_flash",
+    "name": "뒷골목의 섬광",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "wine_and_song",
+    "name": "뒷골목의 술과 시",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "bloodtainted_greatsword",
+    "name": "드래곤 블러드 소드",
+    "rarity": 3,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "thrilling_tales_of_dragon_slayers",
+    "name": "드래곤 슬레이어 영웅담",
+    "rarity": 3,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "lumidouce_elegy",
+    "name": "등방울꽃의 애가",
+    "rarity": 5,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "a_thousand_floating_dreams",
+    "name": "떠오르는 천일 밤의 꿈",
+    "rarity": 5,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "scion_of_the_blazing_sun",
+    "name": "뜨거운 태양의 후손",
+    "rarity": 4,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "magic_guide",
+    "name": "마도 서론",
+    "rarity": 3,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "nocturnes_curtain_call",
+    "name": "막간의 야상곡",
+    "rarity": 5,
+    "materialId": "sundered_glory_of_the_far_north_scions"
+  },
+  {
+    "id": "mappa_mare",
+    "name": "만국 항해용해도",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "master_key",
+    "name": "만능 열쇠",
+    "rarity": 4,
+    "materialId": "sundered_glory_of_the_far_north_scions"
+  },
+  {
+    "id": "symphonist_of_scents",
+    "name": "맛의 지휘자",
+    "rarity": 5,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "aquila_favonia",
+    "name": "매의 검",
+    "rarity": 5,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "oathsworn_eye",
+    "name": "맹세의 눈동자",
+    "rarity": 4,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "end_of_the_line",
+    "name": "메마른 연못",
+    "rarity": 4,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "mouuns_moon",
+    "name": "모운의 달",
+    "rarity": 4,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "the_unforged",
+    "name": "무공의 검",
+    "rarity": 5,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "dull_blade",
+    "name": "무인검",
+    "rarity": 1,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "rainbow_serpents_rain_bow",
+    "name": "무지개뱀의 현",
+    "rarity": 4,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "footprint_of_the_rainbow",
+    "name": "무지개의 행적",
+    "rarity": 4,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "makhaira_aquamarine",
+    "name": "물빛 마카이라",
+    "rarity": 4,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "halberd",
+    "name": "미늘창",
+    "rarity": 3,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "windblume_ode",
+    "name": "바람 꽃의 노래",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "peak_patrol_song",
+    "name": "바위산을 맴도는 노래",
+    "rarity": 5,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "primordial_jade_cutter",
+    "name": "반암결록",
+    "rarity": 5,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "nightweavers_looking_glass",
+    "name": "밤을 엮는 거울",
+    "rarity": 5,
+    "materialId": "artful_device_fragment"
+  },
+  {
+    "id": "wandering_evenstar",
+    "name": "방랑하는 저녁별",
+    "rarity": 4,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "white_tassel",
+    "name": "백술창",
+    "rarity": 3,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "whiteblind",
+    "name": "백영검",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "white_iron_greatsword",
+    "name": "백철 대검",
+    "rarity": 3,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "the_dockhands_assistant",
+    "name": "뱃도랑 장검",
+    "rarity": 4,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "jadefalls_splendor",
+    "name": "벽락의 옥",
+    "rarity": 5,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "prototype_starglitter",
+    "name": "별의 낫 프로토타입",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "starcallers_watch",
+    "name": "별지기의 시선",
+    "rarity": 5,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "festering_desire",
+    "name": "부식의 검",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "flame_forged_insight",
+    "name": "불로 벼린 지혜",
+    "rarity": 4,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "everlasting_moonglow",
+    "name": "불멸의 달빛",
+    "rarity": 5,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "astral_vultures_crimson_plumage",
+    "name": "붉은 깃 별독수리",
+    "rarity": 5,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "crimson_moons_semblance",
+    "name": "붉은 달의 형상",
+    "rarity": 5,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "thundering_pulse",
+    "name": "비뢰의 고동",
+    "rarity": 5,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "skyrider_greatsword",
+    "name": "비천대어검",
+    "rarity": 3,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "skyrider_sword",
+    "name": "비천어검",
+    "rarity": 3,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "emerald_orb",
+    "name": "비취 오브",
+    "rarity": 3,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "rainslasher",
+    "name": "빗물 베기",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "vivid_notions",
+    "name": "빛나는 마음",
+    "rarity": 5,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "hunters_path",
+    "name": "사냥꾼의 길",
+    "rarity": 5,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "hunters_bow",
+    "name": "사냥활",
+    "rarity": 1,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "absolution",
+    "name": "사면",
+    "rarity": 5,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "chain_breaker",
+    "name": "사슬 파괴자",
+    "rarity": 4,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "lost_prayer_to_the_sacred_winds",
+    "name": "사풍 원서",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "fang_of_the_mountain_king",
+    "name": "산왕의 엄니",
+    "rarity": 5,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "mountain_bracing_bolt",
+    "name": "산을 고정하는 못",
+    "rarity": 4,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "dawning_frost",
+    "name": "서릿빛 새벽",
+    "rarity": 4,
+    "materialId": "artful_device_fragment"
+  },
+  {
+    "id": "surfs_up",
+    "name": "서핑 타임",
+    "rarity": 5,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "snow_tombed_starsilver",
+    "name": "설장의 성은",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "key_of_khaj_nisut",
+    "name": "성현의 열쇠",
+    "rarity": 5,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "eye_of_perception",
+    "name": "소심",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "memory_of_dust",
+    "name": "속세의 자물쇠",
+    "rarity": 5,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "song_of_broken_pines",
+    "name": "송뢰가 울릴 무렵",
+    "rarity": 5,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "redhorn_stonethresher",
+    "name": "쇄석의 붉은 뿔",
+    "rarity": 5,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "sword_of_narzissenkreuz",
+    "name": "수선화 십자검",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "fruitful_hook",
+    "name": "수확의 갈고리",
+    "rarity": 4,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "flowing_purity",
+    "name": "순수한 달빛 물결",
+    "rarity": 4,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "forest_regalia",
+    "name": "숲의 리게일리어",
+    "rarity": 4,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "tamayuratei_no_ohanashi",
+    "name": "쉼터의 이야기꾼",
+    "rarity": 4,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "the_bell",
+    "name": "시간의 검",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "calamity_queller",
+    "name": "식재",
+    "rarity": 5,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "sharpshooters_oath",
+    "name": "신궁의 서약",
+    "rarity": 3,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "sacrificers_staff",
+    "name": "신성한 제사의 지팡이",
+    "rarity": 4,
+    "materialId": "ember_of_long_night_flint"
+  },
+  {
+    "id": "lightbearing_moonshard",
+    "name": "신월의 달빛",
+    "rarity": 5,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "silver_sword",
+    "name": "실버 소드",
+    "rarity": 2,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "silvershower_heartstrings",
+    "name": "심금을 울리는 하얀 비",
+    "rarity": 5,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "amenoma_kageuchi",
+    "name": "아메노마 카게우치가타나",
+    "rarity": 4,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "amos_bow",
+    "name": "아모스의 활",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "akuoumaru",
+    "name": "아쿠오마루",
+    "rarity": 4,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "mistsplitter_reforged",
+    "name": "안개를 가르는 회광",
+    "rarity": 5,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "dark_iron_sword",
+    "name": "암철검",
+    "rarity": 3,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "aqua_simulacra",
+    "name": "약수",
+    "rarity": 5,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "ring_of_yaxche",
+    "name": "약스체의 고리",
+    "rarity": 4,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "calamity_of_eshu",
+    "name": "에슈의 재앙",
+    "rarity": 4,
+    "materialId": "delirious_decadence_of_the_sacred_lord"
+  },
+  {
+    "id": "flute_of_ezpitzal",
+    "name": "에스피찰의 피리",
+    "rarity": 4,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "harbinger_of_dawn",
+    "name": "여명신검",
+    "rarity": 3,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "the_daybreak_chronicles",
+    "name": "여명이 트는 역사",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "travelers_handy_sword",
+    "name": "여행자의 검",
+    "rarity": 3,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "tome_of_the_eternal_flow",
+    "name": "영원히 샘솟는 법전",
+    "rarity": 5,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "engulfing_lightning",
+    "name": "예초의 번개",
+    "rarity": 5,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "freedom_sworn",
+    "name": "오래된 자유의 서약",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "royal_greatsword",
+    "name": "왕실의 대검",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "royal_grimoire",
+    "name": "왕실의 비전록",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "royal_longsword",
+    "name": "왕실의 장검",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "royal_bow",
+    "name": "왕실의 장궁",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "royal_spear",
+    "name": "왕실의 장창",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "kings_squire",
+    "name": "왕의 측근",
+    "rarity": 4,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "old_mercs_pal",
+    "name": "용병 중검",
+    "rarity": 2,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "dragonspine_spear",
+    "name": "용의 척추",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "lions_roar",
+    "name": "용의 포효",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "dragons_bane",
+    "name": "용학살창",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "uraku_misugiri",
+    "name": "우라쿠의 미스기리",
+    "rarity": 5,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "sapwood_blade",
+    "name": "원목 검",
+    "rarity": 4,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "dialogues_of_the_desert_sages",
+    "name": "위대한 사막 현자의 대답",
+    "rarity": 4,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "mitternachts_waltz",
+    "name": "유야의 왈츠",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "crescent_pike",
+    "name": "유월창",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "the_widsith",
+    "name": "음유시인의 악장",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "serpent_spine",
+    "name": "이무기 검",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "otherworldly_story",
+    "name": "이세계 여행기",
+    "rarity": 3,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "frostbearer",
+    "name": "인동의 열매",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "solar_pearl",
+    "name": "일월의 정수",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "light_of_foliar_incision",
+    "name": "잎을 가르는 빛",
+    "rarity": 5,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "fleuve_cendre_ferryman",
+    "name": "잿빛의 강 뱃사공",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "staff_of_the_scarlet_sands",
+    "name": "적색 사막의 지팡이",
+    "rarity": 5,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "messenger",
+    "name": "전령",
+    "rarity": 3,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "the_stringless",
+    "name": "절현",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "sacrificial_greatsword",
+    "name": "제례 대검",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "sacrificial_sword",
+    "name": "제례검",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "sacrificial_fragments",
+    "name": "제례의 악장",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "sacrificial_bow",
+    "name": "제례활",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "sacrificial_jade",
+    "name": "제사의 옥",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "elegy_for_the_end",
+    "name": "종말 탄식의 노래",
+    "rarity": 5,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "cinnabar_spindle",
+    "name": "진사의 방추",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "reliquary_of_truth",
+    "name": "진실의 함",
+    "rarity": 5,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "luxurious_sea_lord",
+    "name": "진주를 문 해황",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "cool_steel",
+    "name": "차가운 칼날",
+    "rarity": 3,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "summit_shaper",
+    "name": "참봉의 칼날",
+    "rarity": 5,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "prototype_rancour",
+    "name": "참암 프로토타입",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "azurelight",
+    "name": "창백한 섬광",
+    "rarity": 5,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "prospectors_shovel",
+    "name": "채굴의 삽",
+    "rarity": 4,
+    "materialId": "ember_of_long_night_flint"
+  },
+  {
+    "id": "skyward_blade",
+    "name": "천공의 검",
+    "rarity": 5,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "skyward_pride",
+    "name": "천공의 긍지",
+    "rarity": 5,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "skyward_harp",
+    "name": "천공의 날개",
+    "rarity": 5,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "skyward_atlas",
+    "name": "천공의 두루마리",
+    "rarity": 5,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "skyward_spine",
+    "name": "천공의 마루",
+    "rarity": 5,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "lithic_blade",
+    "name": "천암고검",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "lithic_spear",
+    "name": "천암장창",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "iron_point",
+    "name": "철촉창",
+    "rarity": 2,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "the_viridescent_hunt",
+    "name": "청록의 사냥활",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "beginners_protector",
+    "name": "초보자의 장창",
+    "rarity": 1,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "the_first_great_magic",
+    "name": "최초의 대마술",
+    "rarity": 5,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "cloudforged",
+    "name": "축운",
+    "rarity": 4,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "fruit_of_fulfillment",
+    "name": "충만의 열매",
+    "rarity": 4,
+    "materialId": "oasis_gardens_reminiscence"
+  },
+  {
+    "id": "the_black_sword",
+    "name": "칠흑검",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "sequence_of_solitude",
+    "name": "침묵의 사격",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "kagotsurube_isshin",
+    "name": "카고츠루베 잇신",
+    "rarity": 4,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "kaguras_verity",
+    "name": "카구라의 진의",
+    "rarity": 5,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "katsuragikiri_nagamasa",
+    "name": "카츠라기를 벤 나가마사",
+    "rarity": 4,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "xiphos_moonlight",
+    "name": "크시포스의 달빛",
+    "rarity": 4,
+    "materialId": "copper_talisman_of_the_forest_dew"
+  },
+  {
+    "id": "kitain_cross_spear",
+    "name": "키타인 십자창",
+    "rarity": 4,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "a_thousand_blazing_suns",
+    "name": "타오르는 천 개의 태양",
+    "rarity": 5,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "slingshot",
+    "name": "탄궁",
+    "rarity": 3,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "prospectors_drill",
+    "name": "탐사용 드릴",
+    "rarity": 4,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "tulaytullahs_remembrance",
+    "name": "툴레이툴라의 기억",
+    "rarity": 5,
+    "materialId": "echo_of_scorching_might"
+  },
+  {
+    "id": "tidal_shadow",
+    "name": "파도 그림자 대검",
+    "rarity": 4,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "wavebreakers_fin",
+    "name": "파도 베는 지느러미",
+    "rarity": 4,
+    "materialId": "mask_of_the_wicked_lieutenant"
+  },
+  {
+    "id": "hamayumi",
+    "name": "파마궁",
+    "rarity": 4,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "fractured_halo",
+    "name": "파멸의 빛고리",
+    "rarity": 5,
+    "materialId": "blazing_sacrificial_hearts_terror"
+  },
+  {
+    "id": "verdict",
+    "name": "판정",
+    "rarity": 5,
+    "materialId": "fragment_of_an_ancient_chord"
+  },
+  {
+    "id": "favonius_sword",
+    "name": "페보니우스 검",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "favonius_greatsword",
+    "name": "페보니우스 대검",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "favonius_codex",
+    "name": "페보니우스 비전",
+    "rarity": 4,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "favonius_lance",
+    "name": "페보니우스 장창",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "favonius_warbow",
+    "name": "페보니우스 활",
+    "rarity": 4,
+    "materialId": "fetters_of_the_dandelion_gladiator"
+  },
+  {
+    "id": "predator",
+    "name": "포식자",
+    "rarity": 4,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "pocket_grimoire",
+    "name": "포켓 주술서",
+    "rarity": 2,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "ash_graven_drinking_horn",
+    "name": "푸른 문양 뿔잔",
+    "rarity": 4,
+    "materialId": "night_winds_mystic_consideration"
+  },
+  {
+    "id": "bloodsoaked_ruins",
+    "name": "피로 물든 성",
+    "rarity": 5,
+    "materialId": "ember_of_long_night_flint"
+  },
+  {
+    "id": "the_flute",
+    "name": "피리검",
+    "rarity": 4,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "haran_geppaku_futsu",
+    "name": "하란 월백의 후츠",
+    "rarity": 5,
+    "materialId": "narukamis_wisdom"
+  },
+  {
+    "id": "hakushin_ring",
+    "name": "하쿠신의 고리",
+    "rarity": 4,
+    "materialId": "coral_branch_of_a_distant_sea"
+  },
+  {
+    "id": "apprentices_notes",
+    "name": "학도의 노트",
+    "rarity": 1,
+    "materialId": "tile_of_decarabians_tower"
+  },
+  {
+    "id": "cranes_echoing_call",
+    "name": "학의 여음",
+    "rarity": 5,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "finale_of_the_deep",
+    "name": "해연의 피날레",
+    "rarity": 4,
+    "materialId": "dross_of_pure_sacred_dewdrop"
+  },
+  {
+    "id": "cashflow_supervision",
+    "name": "현금 흐름 감독",
+    "rarity": 5,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "ballad_of_the_fjords",
+    "name": "협만의 노래",
+    "rarity": 4,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "staff_of_homa",
+    "name": "호마의 지팡이",
+    "rarity": 5,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "primordial_jade_winged_spear",
+    "name": "화박연",
+    "rarity": 5,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "prototype_amber",
+    "name": "황금 호박 프로토타입",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "waster_greatsword",
+    "name": "훈련용 대검",
+    "rarity": 1,
+    "materialId": "boreal_wolfs_milk_tooth"
+  },
+  {
+    "id": "debate_club",
+    "name": "훌륭한 대화수단",
+    "rarity": 3,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "portable_power_saw",
+    "name": "휴대용 체인톱",
+    "rarity": 4,
+    "materialId": "broken_goblet_of_the_pristine_sea"
+  },
+  {
+    "id": "black_tassel",
+    "name": "흑술창",
+    "rarity": 3,
+    "materialId": "grain_of_aerosiderite"
+  },
+  {
+    "id": "blackcliff_warbow",
+    "name": "흑암 배틀 보우",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "blackcliff_longsword",
+    "name": "흑암 장검",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "blackcliff_agate",
+    "name": "흑암 홍옥",
+    "rarity": 4,
+    "materialId": "luminous_sands_from_guyun"
+  },
+  {
+    "id": "blackcliff_slasher",
+    "name": "흑암참도",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "blackcliff_pole",
+    "name": "흑암창",
+    "rarity": 4,
+    "materialId": "mist_veiled_lead_elixir"
+  },
+  {
+    "id": "fillet_blade",
+    "name": "흘호 생선회칼",
+    "rarity": 3,
+    "materialId": "mist_veiled_lead_elixir"
+  }
+]

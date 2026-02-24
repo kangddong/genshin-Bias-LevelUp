@@ -1,0 +1,3 @@
+display_name: Genshin Data Curator
+short_description: Validate and curate bundled Genshin JSON data.
+default_prompt: Validate and update the repository's Genshin data JSON files.

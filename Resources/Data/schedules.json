@@ -1,0 +1,464 @@
+[
+  {
+    "materialId": "teachings_of_admonition",
+    "materialName": "「간언」의 가르침",
+    "domainName": "숙달 비경: 원경",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_ballad",
+    "materialName": "「시문」의 가르침",
+    "domainName": "숙달 비경: 잠들어 있는 나라",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_conflict",
+    "materialName": "「분쟁」의 가르침",
+    "domainName": "숙달 비경: 반복",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_contention",
+    "materialName": "「각축」의 가르침",
+    "domainName": "숙달 비경: 전환",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_diligence",
+    "materialName": "「근면」의 가르침",
+    "domainName": "숙달 비경: 깊은 화염의 끝",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_elegance",
+    "materialName": "「풍아」의 가르침",
+    "domainName": "숙달 비경: 첫 천둥의 골짜기",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_elysium",
+    "materialName": "「낙원」의 가르침",
+    "domainName": "숙달 비경: 그늘",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_equity",
+    "materialName": "「공평」의 가르침",
+    "domainName": "숙달 비경: 선율",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_freedom",
+    "materialName": "「자유」의 가르침",
+    "domainName": "숙달 비경: 서리 제단",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_gold",
+    "materialName": "「황금」의 가르침",
+    "domainName": "숙달 비경: 불사른 고리",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_ingenuity",
+    "materialName": "「창의」의 가르침",
+    "domainName": "숙달 비경: 묘언",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_justice",
+    "materialName": "「정의」의 가르침",
+    "domainName": "숙달 비경: 규율",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_kindling",
+    "materialName": "「소각」의 가르침",
+    "domainName": "숙달 비경: 공화",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_light",
+    "materialName": "「천광」의 가르침",
+    "domainName": "숙달 비경: 칡의 폐허 도시",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_moonlight",
+    "materialName": "「달빛」의 가르침",
+    "domainName": "숙달 비경: 폐허",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_order",
+    "materialName": "「질서」의 가르침",
+    "domainName": "숙달 비경: 낭송",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_praxis",
+    "materialName": "「실천」의 가르침",
+    "domainName": "숙달 비경: 율장",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_prosperity",
+    "materialName": "「번영」의 가르침",
+    "domainName": "숙달 비경: 뜨거운 화염의 제단",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_resistance",
+    "materialName": "「투쟁」의 가르침",
+    "domainName": "숙달 비경: 얼음에 봉인된 심연의 폐허",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_transience",
+    "materialName": "「부세」의 가르침",
+    "domainName": "숙달 비경: 보랏빛으로 물든 나라",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "teachings_of_vagrancy",
+    "materialName": "「유랑」의 가르침",
+    "domainName": "숙달 비경: 소굴",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "character"
+  },
+  {
+    "materialId": "artful_device_fragment",
+    "materialName": "비밀 도구의 잔해",
+    "domainName": "연무 비경: 휘광",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "materialName": "뜨거운 심장 공양의 공포",
+    "domainName": "연무 비경: 명견",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "boreal_wolfs_milk_tooth",
+    "materialName": "칼바람 울프의 젖니",
+    "domainName": "연무 비경: 깊은 골짜기",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "materialName": "순결한 바다의 쓴잔",
+    "domainName": "연무 비경: 기계",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "materialName": "숲의 이슬을 닮은 동 부적",
+    "domainName": "연무 비경: 운구",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "coral_branch_of_a_distant_sea",
+    "materialName": "먼바다의 산호 가지",
+    "domainName": "연무 비경: 모래의 심연",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "materialName": "실성한 왕의 부패",
+    "domainName": "연무 비경: 관찰",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "materialName": "성스러운 이슬의 침전",
+    "domainName": "연무 비경: 장인",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "echo_of_scorching_might",
+    "materialName": "태양 같은 권위의 메아리",
+    "domainName": "연무 비경: 인업",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "ember_of_long_night_flint",
+    "materialName": "긴 밤을 밝히는 불티",
+    "domainName": "연무 비경: 송가",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "materialName": "라이언 투사의 족쇄",
+    "domainName": "연무 비경: 갈증의 폐도시",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "fragment_of_an_ancient_chord",
+    "materialName": "오래된 현악의 잔장",
+    "domainName": "연무 비경: 교묘",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "grain_of_aerosiderite",
+    "materialName": "흑운철 한 알",
+    "domainName": "연무 비경: 고대 뇌전 시련장",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "luminous_sands_from_guyun",
+    "materialName": "고운한림의 매끄러운 모래",
+    "domainName": "연무 비경: 뇌운 제단",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "materialName": "금석극화의 가면",
+    "domainName": "연무 비경: 유사의 매장",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "mist_veiled_lead_elixir",
+    "materialName": "안개구름 속의 흑연단",
+    "domainName": "연무 비경: 뇌명 폐허",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "narukamis_wisdom",
+    "materialName": "나루카미 어령의 은혜",
+    "domainName": "연무 비경: 모래 제단",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "night_winds_mystic_consideration",
+    "materialName": "신이 깃든 연기의 사색",
+    "domainName": "연무 비경: 측도",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "oasis_gardens_reminiscence",
+    "materialName": "오아시스 화원의 추억",
+    "domainName": "연무 비경: 사혹",
+    "weekdays": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "sundered_glory_of_the_far_north_scions",
+    "materialName": "극북 유민의 영욕",
+    "domainName": "연무 비경: 달 제사",
+    "weekdays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  },
+  {
+    "materialId": "tile_of_decarabians_tower",
+    "materialName": "고탑 왕의 잔해",
+    "domainName": "연무 비경: 물과 빛의 성",
+    "weekdays": [
+      "monday",
+      "thursday",
+      "sunday"
+    ],
+    "kind": "weapon"
+  }
+]

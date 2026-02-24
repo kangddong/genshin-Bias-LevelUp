@@ -1,0 +1,3 @@
+display_name: SwiftUI Feature Scaffold
+short_description: Scaffold SwiftUI feature/module files with tests.
+default_prompt: Create a new SwiftUI feature using the repository scaffold rules.

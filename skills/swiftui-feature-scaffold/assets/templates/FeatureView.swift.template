@@ -1,0 +1,12 @@
+import SwiftUI
+
+struct __FEATURE__View: View {
+    @StateObject private var viewModel = __FEATURE__ViewModel()
+
+    var body: some View {
+        Text("__FEATURE__")
+            .task {
+                await viewModel.onAppear()
+            }
+    }
+}

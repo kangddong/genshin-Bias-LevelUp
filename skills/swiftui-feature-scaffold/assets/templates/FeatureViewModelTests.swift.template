@@ -1,0 +1,11 @@
+import XCTest
+@testable import MyBiasLevelUp
+
+final class __FEATURE__ViewModelTests: XCTestCase {
+    @MainActor
+    func testOnAppearSetsLoadingBackToFalse() async {
+        let viewModel = __FEATURE__ViewModel()
+        await viewModel.onAppear()
+        XCTAssertFalse(viewModel.isLoading)
+    }
+}

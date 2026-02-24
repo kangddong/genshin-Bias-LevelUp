@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "gaming",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png"
+    ],
+    "name": "가명",
+    "element": "pyro",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/gaming.png"
+  },
+  {
+    "id": "keqing",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Keqing_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/40d97fbb1ae120a4d97573aef702d0a3.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg"
+    ],
+    "name": "각청",
+    "element": "electro",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/keqing.png"
+  },
+  {
+    "id": "ganyu",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/35428890/797ded201635d241d358c307e9e7417f_464481961971717418.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/4af4adf192a35db2dd76d9718acc7bc8.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Ganyu_Card.png"
+    ],
+    "name": "감우",
+    "element": "cryo",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/ganyu.png"
+  },
+  {
+    "id": "gorou",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/781be06fd7f2106fbc28711aa9a46663.png"
+    ],
+    "name": "고로",
+    "element": "geo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_light",
+    "localImage": "Images/characters/gorou.png"
+  },
+  {
+    "id": "navia",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png"
+    ],
+    "name": "나비아",
+    "element": "geo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_equity",
+    "localImage": "Images/characters/navia.png"
+  },
+  {
+    "id": "nahida",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/29/35428890/f29490bddc56b4a6773b6c5003bbb853_9091170755650648414.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png"
+    ],
+    "name": "나히다",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_ingenuity",
+    "localImage": "Images/characters/nahida.png"
+  },
+  {
+    "id": "lan_yan",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/01/17/02a299cec38b4ef4f21952c37a624258_5744396397316809821.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png"
+    ],
+    "name": "남연",
+    "element": "anemo",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/lan_yan.png"
+  },
+  {
+    "id": "nefer",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/10/21/7557acebcb72b4d9912bcb0e6c92306a_3655566527985254987.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png"
+    ],
+    "name": "네페르",
+    "element": "dendro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_elysium",
+    "localImage": "Images/characters/nefer.png"
+  },
+  {
+    "id": "noelle",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/42120a5c88658419970a1e8f71d2b245.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg"
+    ],
+    "name": "노엘",
+    "element": "geo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/noelle.png"
+  },
+  {
+    "id": "neuvillette",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/35428890/0513aa7f482dbb4778545d02f94956fe_7540616405773975535.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png"
+    ],
+    "name": "느비예트",
+    "element": "hydro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_equity",
+    "localImage": "Images/characters/neuvillette.png"
+  },
+  {
+    "id": "nilou",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/10/35428890/586d726f9ebda3506c78beaaa41f13b6_5916447718992361520.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+      "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/31ed69d405cd0b83662fffb7ad065b36_4256098748428542260.png"
+    ],
+    "name": "닐루",
+    "element": "hydro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_praxis",
+    "localImage": "Images/characters/nilou.png"
+  },
+  {
+    "id": "diluc",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/7f68f45a650bbcf804215fc7890c7f35.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Character_Diluc_Card.jpg"
+    ],
+    "name": "다이루크",
+    "element": "pyro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/diluc.png"
+  },
+  {
+    "id": "dahlia",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/255dedc5048565aec2c5af510c6f74a5_7726536808309970424.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png"
+    ],
+    "name": "달리아",
+    "element": "hydro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/dahlia.png"
+  },
+  {
+    "id": "dehya",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/02/24/35428890/65b22311e1e38ffa45a4928d4005ecee_7076295870986871517.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png"
+    ],
+    "name": "데히야",
+    "element": "pyro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_praxis",
+    "localImage": "Images/characters/dehya.png"
+  },
+  {
+    "id": "dori",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/35428890/6539bea71efd0f839db897cfc4094362_3469125131800075941.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/ff9085c679cf2c31bd8428eee1c026ce.png"
+    ],
+    "name": "도리",
+    "element": "electro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_ingenuity",
+    "localImage": "Images/characters/dori.png"
+  },
+  {
+    "id": "durin",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/11/28/e3e2b8fcbff2f2f3cdcec6bbf04efa84_3327367670955368711.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png"
+    ],
+    "name": "두린",
+    "element": "pyro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/durin.png"
+  },
+  {
+    "id": "diona",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diona_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/d4e511080346c2ce43636eeb10dd7226.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/08/Character_Diona_Card.png"
+    ],
+    "name": "디오나",
+    "element": "cryo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/diona.png"
+  },
+  {
+    "id": "lauma",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/08/b06e9ff48d57de4856f1a05b1199aae1_8565150401481594895.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png"
+    ],
+    "name": "라우마",
+    "element": "dendro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_moonlight",
+    "localImage": "Images/characters/lauma.png"
+  },
+  {
+    "id": "raiden_shogun",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Raiden Shogun_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/af8df0bbece1be9ab90d3cf2cb0ee7bd.png"
+    ],
+    "name": "라이덴 쇼군",
+    "element": "electro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_light",
+    "localImage": "Images/characters/raiden_shogun.png"
+  },
+  {
+    "id": "wriothesley",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png"
+    ],
+    "name": "라이오슬리",
+    "element": "cryo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_order",
+    "localImage": "Images/characters/wriothesley.png"
+  },
+  {
+    "id": "razor",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/997709a43b4f8d80a58ac14d412bf2e7.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg"
+    ],
+    "name": "레이저",
+    "element": "electro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/razor.png"
+  },
+  {
+    "id": "layla",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/15/35428890/48a495acadaf37f12d0a7f653d85bd83_7085430198590697354.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png"
+    ],
+    "name": "레일라",
+    "element": "cryo",
+    "nation": "sumeru",
+    "materialId": "teachings_of_ingenuity",
+    "localImage": "Images/characters/layla.png"
+  },
+  {
+    "id": "rosaria",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Rosaria_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/da6ff2b868b5ff680484149c69518001.png"
+    ],
+    "name": "로자리아",
+    "element": "cryo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/rosaria.png"
+  },
+  {
+    "id": "lynette",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/14/35428890/436e6f2b9b9006bfe511a98093259daf_7192025380861185061.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png"
+    ],
+    "name": "리넷",
+    "element": "anemo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_order",
+    "localImage": "Images/characters/lynette.png"
+  },
+  {
+    "id": "lyney",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png"
+    ],
+    "name": "리니",
+    "element": "pyro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_equity",
+    "localImage": "Images/characters/lyney.png"
+  },
+  {
+    "id": "lisa",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/06b5a07d8f98649e5e09c58aa7904752.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg"
+    ],
+    "name": "리사",
+    "element": "electro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/lisa.png"
+  },
+  {
+    "id": "mavuika",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/30/2f098b1f15854fd9dafc54998795a59e_864981592196815761.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png"
+    ],
+    "name": "마비카",
+    "element": "pyro",
+    "nation": "natlan",
+    "materialId": "teachings_of_contention",
+    "localImage": "Images/characters/mavuika.png"
+  },
+  {
+    "id": "mualani",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/26/f4c75caad42923eb91ee760aa2eb473a_7439123622315070718.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png"
+    ],
+    "name": "말라니",
+    "element": "hydro",
+    "nation": "natlan",
+    "materialId": "teachings_of_contention",
+    "localImage": "Images/characters/mualani.png"
+  },
+  {
+    "id": "mona",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Mona_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/1fa7a20fb3b391132e1132ab2a44e146.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg"
+    ],
+    "name": "모나",
+    "element": "hydro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/mona.png"
+  },
+  {
+    "id": "mika",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/21/35428890/da13e3b1a2c6c0e5892b201cec735f9b_6392765476968311284.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png"
+    ],
+    "name": "미카",
+    "element": "cryo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/mika.png"
+  },
+  {
+    "id": "varesa",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png"
+    ],
+    "name": "바레사",
+    "element": "electro",
+    "nation": "natlan",
+    "materialId": "teachings_of_conflict",
+    "localImage": "Images/characters/varesa.png"
+  },
+  {
+    "id": "barbara",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+      "https://img-os-static.hoyolab.com/communityweb/upload/2adac6e4e0195c39d90696955f9a7902.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Character_Barbara_Card.jpg"
+    ],
+    "name": "바바라",
+    "element": "hydro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/barbara.png"
+  },
+  {
+    "id": "wanderer",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png"
+    ],
+    "name": "방랑자",
+    "element": "anemo",
+    "nation": "sumeru",
+    "materialId": "teachings_of_praxis",
+    "localImage": "Images/characters/wanderer.png"
+  },
+  {
+    "id": "baizhu",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png"
+    ],
+    "name": "백출",
+    "element": "dendro",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/baizhu.png"
+  },
+  {
+    "id": "bennett",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/661fca5d5165dee41fd29c142a59c2f9.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Character_Bennett_Card.jpg"
+    ],
+    "name": "베넷",
+    "element": "pyro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/bennett.png"
+  },
+  {
+    "id": "venti",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/f42e16fca94650e2e932c093de92ae54.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg"
+    ],
+    "name": "벤티",
+    "element": "anemo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/venti.png"
+  },
+  {
+    "id": "beidou",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/515effa5bfabb8fc03a52cbf76a4a79e.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Character_Beidou_Card.jpg"
+    ],
+    "name": "북두",
+    "element": "electro",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/beidou.png"
+  },
+  {
+    "id": "sayu",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sayu_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/94b60ed23cb102d39f99335e9658b17d.png"
+    ],
+    "name": "사유",
+    "element": "anemo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_light",
+    "localImage": "Images/characters/sayu.png"
+  },
+  {
+    "id": "cyno",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+      "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/4c1d9bbfdfcb964080600105ac6f37a9_8216471529097708423.png"
+    ],
+    "name": "사이노",
+    "element": "electro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_admonition",
+    "localImage": "Images/characters/cyno.png"
+  },
+  {
+    "id": "sangonomiya_kokomi",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sangonomiya Kokomi_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/fd94f2afc70ab075c727ce0805fd0201.png"
+    ],
+    "name": "산고노미야 코코미",
+    "element": "hydro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/sangonomiya_kokomi.png"
+  },
+  {
+    "id": "charlotte",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png"
+    ],
+    "name": "샤를로트",
+    "element": "cryo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/charlotte.png"
+  },
+  {
+    "id": "sucrose",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/4ffb3198b59f3ae36df71d4b938447af.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg"
+    ],
+    "name": "설탕",
+    "element": "anemo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/sucrose.png"
+  },
+  {
+    "id": "sethos",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/cdb7abfcb86138e5b618946a5466d442_6414132746291261116.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png"
+    ],
+    "name": "세토스",
+    "element": "electro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_praxis",
+    "localImage": "Images/characters/sethos.png"
+  },
+  {
+    "id": "xiao",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/59cb768b56ebc0143d6d2e37385c934c.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg"
+    ],
+    "name": "소",
+    "element": "anemo",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/xiao.png"
+  },
+  {
+    "id": "chevreuse",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/09/35428890/a846729f31f16a987a8696466ebabcc0_6857330048220230431.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png"
+    ],
+    "name": "슈브르즈",
+    "element": "pyro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_order",
+    "localImage": "Images/characters/chevreuse.png"
+  },
+  {
+    "id": "skirk",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/48dba0c10560a3ef573f17d97408b5a0_2527001828446746987.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png"
+    ],
+    "name": "스커크",
+    "element": "cryo",
+    "nation": "other",
+    "materialId": "teachings_of_contention",
+    "localImage": "Images/characters/skirk.png"
+  },
+  {
+    "id": "sigewinne",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png"
+    ],
+    "name": "시그윈",
+    "element": "hydro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_equity",
+    "localImage": "Images/characters/sigewinne.png"
+  },
+  {
+    "id": "shikanoin_heizou",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/3669a189c4a2b374ee0730a8ae112704.png"
+    ],
+    "name": "시카노인 헤이조",
+    "element": "anemo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/shikanoin_heizou.png"
+  },
+  {
+    "id": "citlali",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/27/c4ab2530bb8bbe3c0e811684f97ec124_6688582217610741079.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png"
+    ],
+    "name": "시틀라리",
+    "element": "cryo",
+    "nation": "natlan",
+    "materialId": "teachings_of_kindling",
+    "localImage": "Images/characters/citlali.png"
+  },
+  {
+    "id": "xinyan",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/1a30faffb4b122f778b1ab4c7c39d6bf.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg"
+    ],
+    "name": "신염",
+    "element": "pyro",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/xinyan.png"
+  },
+  {
+    "id": "shenhe",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/443ee6e42959bcdded66f453f50dc807.png"
+    ],
+    "name": "신학",
+    "element": "cryo",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/shenhe.png"
+  },
+  {
+    "id": "xilonen",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png"
+    ],
+    "name": "실로닌",
+    "element": "geo",
+    "nation": "natlan",
+    "materialId": "teachings_of_kindling",
+    "localImage": "Images/characters/xilonen.png"
+  },
+  {
+    "id": "arataki_itto",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki Itto_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/c71eda86923329c3f286e959205178bb.png"
+    ],
+    "name": "아라타키 이토",
+    "element": "geo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_elegance",
+    "localImage": "Images/characters/arataki_itto.png"
+  },
+  {
+    "id": "arlecchino",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/22/35428890/672e65470bfd14b664596c2a7f7eaaf8_7046130387894981792.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png"
+    ],
+    "name": "아를레키노",
+    "element": "pyro",
+    "nation": "snezhnaya",
+    "materialId": "teachings_of_order",
+    "localImage": "Images/characters/arlecchino.png"
+  },
+  {
+    "id": "aino",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/09/09/4e58c851d6c947865026faa168db83bd_3944254802105067377.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png"
+    ],
+    "name": "아이노",
+    "element": "hydro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_elysium",
+    "localImage": "Images/characters/aino.png"
+  },
+  {
+    "id": "albedo",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/94dd9e0cc9d8311e58887a45b9b14861.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png"
+    ],
+    "name": "알베도",
+    "element": "geo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/albedo.png"
+  },
+  {
+    "id": "alhaitham",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png"
+    ],
+    "name": "알하이탐",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_ingenuity",
+    "localImage": "Images/characters/alhaitham.png"
+  },
+  {
+    "id": "yelan",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yelan_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/ab71dda11563ba0a54261e025684fd99.png"
+    ],
+    "name": "야란",
+    "element": "hydro",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/yelan.png"
+  },
+  {
+    "id": "yae_miko",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yae Miko_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/158a1580973af357e2181114631fae6f.png"
+    ],
+    "name": "야에 미코",
+    "element": "electro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_light",
+    "localImage": "Images/characters/yae_miko.png"
+  },
+  {
+    "id": "jahoda",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/01/19708bac6eba4779a70908bf0bee70b1_1653339605275422455.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png"
+    ],
+    "name": "야호다",
+    "element": "anemo",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_vagrancy",
+    "localImage": "Images/characters/jahoda.png"
+  },
+  {
+    "id": "iansan",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/dd9a200a86b792fb1b73ef1ee7de0911_2097378734184941134.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png"
+    ],
+    "name": "얀사",
+    "element": "electro",
+    "nation": "natlan",
+    "materialId": "teachings_of_contention",
+    "localImage": "Images/characters/iansan.png"
+  },
+  {
+    "id": "emilie",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/31/87ad30965e0c1b45364fdccc51b3429d_6108610286145583716.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png"
+    ],
+    "name": "에밀리",
+    "element": "dendro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_order",
+    "localImage": "Images/characters/emilie.png"
+  },
+  {
+    "id": "escoffier",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png"
+    ],
+    "name": "에스코피에",
+    "element": "cryo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/escoffier.png"
+  },
+  {
+    "id": "aloy",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/19/80830045/1fb2086af3c7933af37eda1ff9084317_163049704110308134.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png"
+    ],
+    "name": "에일로이",
+    "element": "cryo",
+    "nation": "other",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/aloy.png"
+  },
+  {
+    "id": "amber",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Amber_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/b7c1e4d14fdaac060eb86e3ad09bbf78.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Character_Amber_Card.jpg"
+    ],
+    "name": "엠버",
+    "element": "pyro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/amber.png"
+  },
+  {
+    "id": "yanfei",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yanfei_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/75c1d48b2fa08bd4c583501a3bb476d3.png"
+    ],
+    "name": "연비",
+    "element": "pyro",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/yanfei.png"
+  },
+  {
+    "id": "ororon",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png"
+    ],
+    "name": "올로룬",
+    "element": "electro",
+    "nation": "natlan",
+    "materialId": "teachings_of_kindling",
+    "localImage": "Images/characters/ororon.png"
+  },
+  {
+    "id": "yaoyao",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/5bc9df1fb67391e4c8080da3d855de53_8974356791001371659.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png"
+    ],
+    "name": "요요",
+    "element": "dendro",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/yaoyao.png"
+  },
+  {
+    "id": "yoimiya",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yoimiya_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/7c15028cb304de316e2cdb584bc33ff3.png"
+    ],
+    "name": "요이미야",
+    "element": "pyro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/yoimiya.png"
+  },
+  {
+    "id": "yun_jin",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/e8694b5926d1f18752a07f07c6965316.png"
+    ],
+    "name": "운근",
+    "element": "geo",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/yun_jin.png"
+  },
+  {
+    "id": "eula",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Eula_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/6840f27db9745020aad45853bff79c7c.png"
+    ],
+    "name": "유라",
+    "element": "cryo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/eula.png"
+  },
+  {
+    "id": "yumemizuki_mizuki",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/02/08/11662c12fb353d88bd2b20a2726c9f1c_8013472600677983943.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png"
+    ],
+    "name": "유메미즈키 미즈키",
+    "element": "anemo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/yumemizuki_mizuki.png"
+  },
+  {
+    "id": "ningguang",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/498b811beba3fbeb2549a5b362190d43.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg/"
+    ],
+    "name": "응광",
+    "element": "geo",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/ningguang.png"
+  },
+  {
+    "id": "ineffa",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/07/28/7c221918444852e9a3c2ad609ccacea2_8687518447126752117.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png"
+    ],
+    "name": "이네파",
+    "element": "electro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_conflict",
+    "localImage": "Images/characters/ineffa.png"
+  },
+  {
+    "id": "ifa",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ce693d1e36aef5936b2d2db006605fc4_9036718103340803450.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png"
+    ],
+    "name": "이파",
+    "element": "anemo",
+    "nation": "natlan",
+    "materialId": "teachings_of_conflict",
+    "localImage": "Images/characters/ifa.png"
+  },
+  {
+    "id": "illuga",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/12/b138122c91d1ce61bf7d06d6042ae08a_4301479487552885437.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png"
+    ],
+    "name": "일루가",
+    "element": "geo",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_elysium",
+    "localImage": "Images/characters/illuga.png"
+  },
+  {
+    "id": "zibai",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/12/11/6a57d2dd9677f63ae7d38f525484c55f_7837326903952372916.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png"
+    ],
+    "name": "자백",
+    "element": "geo",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/zibai.png"
+  },
+  {
+    "id": "zhongli",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/693b8a54de3e9ea43854615c14a5032b.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png"
+    ],
+    "name": "종려",
+    "element": "geo",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/zhongli.png"
+  },
+  {
+    "id": "chongyun",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Chongyun_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/af335b6e68883e7e40237040aa020cf1.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Character_Chongyun_Card.jpg"
+    ],
+    "name": "중운",
+    "element": "cryo",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/chongyun.png"
+  },
+  {
+    "id": "jean",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Jean_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/e15d789a558b128c05763495d35d55b9.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Jean_Card.jpg"
+    ],
+    "name": "진",
+    "element": "anemo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_resistance",
+    "localImage": "Images/characters/jean.png"
+  },
+  {
+    "id": "chasca",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/abe1192cc7aad45f6b273478dd5fa88a_4799372826012752249.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png"
+    ],
+    "name": "차스카",
+    "element": "anemo",
+    "nation": "natlan",
+    "materialId": "teachings_of_conflict",
+    "localImage": "Images/characters/chasca.png"
+  },
+  {
+    "id": "chiori",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/11/35428890/5470f90694af13476e49be7b8346e2b1_5366587928381003654.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png"
+    ],
+    "name": "치오리",
+    "element": "geo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_light",
+    "localImage": "Images/characters/chiori.png"
+  },
+  {
+    "id": "qiqi",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/d696551575bc6c117462563fc92eae6c.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg"
+    ],
+    "name": "치치",
+    "element": "cryo",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/qiqi.png"
+  },
+  {
+    "id": "kamisato_ayaka",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayaka_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/dbb893c26e20822aabd876a52361fffa.png"
+    ],
+    "name": "카미사토 아야카",
+    "element": "cryo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_elegance",
+    "localImage": "Images/characters/kamisato_ayaka.png"
+  },
+  {
+    "id": "kamisato_ayato",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayato_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/d94c5d749edd1e8c5e16696b25cb7697.png"
+    ],
+    "name": "카미사토 아야토",
+    "element": "hydro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_elegance",
+    "localImage": "Images/characters/kamisato_ayato.png"
+  },
+  {
+    "id": "kaveh",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/2270aba02b92034d7d76b4426be8f53b_7062168821433378650.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png"
+    ],
+    "name": "카베",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_ingenuity",
+    "localImage": "Images/characters/kaveh.png"
+  },
+  {
+    "id": "kaedehara_kazuha",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaedehara Kazuha_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/d2df66ab1ab047fd2392ab816c77ea19.png"
+    ],
+    "name": "카에데하라 카즈하",
+    "element": "anemo",
+    "nation": "inazuma",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/kaedehara_kazuha.png"
+  },
+  {
+    "id": "kachina",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png"
+    ],
+    "name": "카치나",
+    "element": "geo",
+    "nation": "natlan",
+    "materialId": "teachings_of_conflict",
+    "localImage": "Images/characters/kachina.png"
+  },
+  {
+    "id": "candace",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/2f43da4ece9eabfbde6ec2fcc81b3bff_6412967003441390014.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+      "https://upload-os-bbs.hoyolab.com/upload/2022/09/27/776150fc42d323732b988b6a80150f34_8066483729031867205.png"
+    ],
+    "name": "캔디스",
+    "element": "hydro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_admonition",
+    "localImage": "Images/characters/candace.png"
+  },
+  {
+    "id": "kaeya",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaeya_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/428a3008f1d6fda010ccfcf7d83b08fe.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg"
+    ],
+    "name": "케이아",
+    "element": "cryo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/kaeya.png"
+  },
+  {
+    "id": "collei",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/24/194600931/37a18b6b6865c59063003a9380f08225_7758071773430345954.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/7d6142936ebd4cfd4b5501f187cc4be7.png"
+    ],
+    "name": "콜레이",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_praxis",
+    "localImage": "Images/characters/collei.png"
+  },
+  {
+    "id": "columbina",
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
+    "imageAlternatives": [],
+    "name": "콜롬비나",
+    "element": "hydro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_moonlight",
+    "localImage": null
+  },
+  {
+    "id": "kujou_sara",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kujou Sara_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/5ea7bdaf660c0da94ff445221daf483c.png"
+    ],
+    "name": "쿠죠 사라",
+    "element": "electro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_elegance",
+    "localImage": "Images/characters/kujou_sara.png"
+  },
+  {
+    "id": "kuki_shinobu",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/be3096da72e3f1d86d6856f298a95147.png"
+    ],
+    "name": "쿠키 시노부",
+    "element": "electro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_elegance",
+    "localImage": "Images/characters/kuki_shinobu.png"
+  },
+  {
+    "id": "klee",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/cb31fe8dae809ebdbc72039cba527501.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg"
+    ],
+    "name": "클레",
+    "element": "pyro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/klee.png"
+  },
+  {
+    "id": "clorinde",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/770a66030815971c697ab81bc5436329_1296341861352728851.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png"
+    ],
+    "name": "클로린드",
+    "element": "electro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/clorinde.png"
+  },
+  {
+    "id": "kinich",
+    "image": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png"
+    ],
+    "name": "키니치",
+    "element": "dendro",
+    "nation": "natlan",
+    "materialId": "teachings_of_kindling",
+    "localImage": "Images/characters/kinich.png"
+  },
+  {
+    "id": "kirara",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png"
+    ],
+    "name": "키라라",
+    "element": "dendro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/kirara.png"
+  },
+  {
+    "id": "tartaglia",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Tartaglia_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/34ebaeb164a8b447dbe52afaae3e1f63.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png"
+    ],
+    "name": "타르탈리아",
+    "element": "hydro",
+    "nation": "snezhnaya",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/tartaglia.png"
+  },
+  {
+    "id": "tighnari",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/58163a3ff45260b4b6a5e447e9e1b7eb.png"
+    ],
+    "name": "타이나리",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_admonition",
+    "localImage": "Images/characters/tighnari.png"
+  },
+  {
+    "id": "thoma",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Thoma_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/3efac14b33f37b567cc3f48f47b3158d.png"
+    ],
+    "name": "토마",
+    "element": "pyro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/thoma.png"
+  },
+  {
+    "id": "faruzan",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/38c12ab46678a4008f83a0e46c900ef5_528211919348170763.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png"
+    ],
+    "name": "파루잔",
+    "element": "anemo",
+    "nation": "sumeru",
+    "materialId": "teachings_of_admonition",
+    "localImage": "Images/characters/faruzan.png"
+  },
+  {
+    "id": "furina",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/263e5ea0784d182b393f67a7e24146a5_2961704185113948066.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png"
+    ],
+    "name": "푸리나",
+    "element": "hydro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/furina.png"
+  },
+  {
+    "id": "freminet",
+    "image": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/03/35428890/8e44111a378f4e5379b8e7444e8c2daa_4713775899437074849.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png"
+    ],
+    "name": "프레미네",
+    "element": "cryo",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/freminet.png"
+  },
+  {
+    "id": "flins",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/09/29/35428890/f6feccecc61d2bf772461f057dfb41cd_5944664216414192017.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png"
+    ],
+    "name": "플린스",
+    "element": "electro",
+    "nation": "nodkrai",
+    "materialId": "teachings_of_vagrancy",
+    "localImage": "Images/characters/flins.png"
+  },
+  {
+    "id": "fischl",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Fischl_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/0bb4e376b31993e6fdab02786bc6a20a.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Fischl_Card.jpg"
+    ],
+    "name": "피슬",
+    "element": "electro",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_ballad",
+    "localImage": "Images/characters/fischl.png"
+  },
+  {
+    "id": "xianyun",
+    "image": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png"
+    ],
+    "name": "한운",
+    "element": "anemo",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/xianyun.png"
+  },
+  {
+    "id": "xingqiu",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xingqiu_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/fa6b94ec6e93d14eef913e441213ffc1.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg"
+    ],
+    "name": "행추",
+    "element": "hydro",
+    "nation": "liyue",
+    "materialId": "teachings_of_gold",
+    "localImage": "Images/characters/xingqiu.png"
+  },
+  {
+    "id": "xiangling",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/f406695ce989bda634c6d952eb15493a.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg"
+    ],
+    "name": "향릉",
+    "element": "pyro",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/xiangling.png"
+  },
+  {
+    "id": "hu_tao",
+    "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Hu Tao_icon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+      "https://img-os-static.hoyolab.com/communityWeb/upload/e160b5fac097d628f5b2227fd507373b.png",
+      "https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Hu_Tao_Card.jpg"
+    ],
+    "name": "호두",
+    "element": "pyro",
+    "nation": "liyue",
+    "materialId": "teachings_of_diligence",
+    "localImage": "Images/characters/hu_tao.png"
+  }
+]
