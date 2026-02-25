@@ -26,17 +26,90 @@ final class AppStoreTests: XCTestCase {
         XCTAssertEqual(settingsRouter.openCallCount, 1)
     }
 
+    func testUpdateNotificationTimeReschedulesWhenAuthorized() async throws {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let store = makeStore(notificationScheduler: scheduler)
+
+        await store.loadCatalogIfNeeded()
+        let initialCallCount = await scheduler.rescheduleCallCount
+        let targetSlot = try XCTUnwrap(store.notificationTimeSlots.first)
+        var components = DateComponents()
+        components.hour = 19
+        components.minute = 22
+        let updatedDate = try XCTUnwrap(Calendar.current.date(from: components))
+
+        store.updateNotificationTime(slotID: targetSlot.id, date: updatedDate)
+        await waitForRescheduleCallCount(scheduler, atLeast: initialCallCount + 1)
+
+        XCTAssertEqual(store.notificationTimeSlots.first?.hour, 19)
+        XCTAssertEqual(store.notificationTimeSlots.first?.minute, 22)
+    }
+
+    func testAddNotificationTimeSlotReschedulesWhenAuthorized() async {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let store = makeStore(notificationScheduler: scheduler)
+
+        await store.loadCatalogIfNeeded()
+        let initialCallCount = await scheduler.rescheduleCallCount
+
+        store.addNotificationTimeSlot()
+        await waitForRescheduleCallCount(scheduler, atLeast: initialCallCount + 1)
+
+        XCTAssertEqual(store.notificationTimeSlots.count, 2)
+    }
+
+    func testRemoveNotificationTimeSlotReschedulesWhenAuthorized() async {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let preferenceStore = InMemoryPreferenceStore(
+            preference: NotificationPreference(
+                timeSlots: [
+                    NotificationTimeSlot(id: UUID(uuidString: "11111111-1111-1111-1111-111111111111")!, hour: 8, minute: 0),
+                    NotificationTimeSlot(id: UUID(uuidString: "22222222-2222-2222-2222-222222222222")!, hour: 12, minute: 0)
+                ],
+                defaultFilter: .default
+            )
+        )
+        let store = makeStore(notificationScheduler: scheduler, preferenceStore: preferenceStore)
+
+        await store.loadCatalogIfNeeded()
+        let initialCallCount = await scheduler.rescheduleCallCount
+        let removedID = store.notificationTimeSlots[1].id
+
+        store.removeNotificationTimeSlot(removedID)
+        await waitForRescheduleCallCount(scheduler, atLeast: initialCallCount + 1)
+
+        XCTAssertEqual(store.notificationTimeSlots.count, 1)
+        XCTAssertFalse(store.notificationTimeSlots.contains(where: { $0.id == removedID }))
+    }
+
     private func makeStore(
         notificationScheduler: MockNotificationScheduler,
-        settingsRouter: MockSettingsRouter = MockSettingsRouter()
+        settingsRouter: MockSettingsRouter = MockSettingsRouter(),
+        preferenceStore: InMemoryPreferenceStore = InMemoryPreferenceStore()
     ) -> AppStore {
         AppStore(
             dataRepository: StubGameDataRepository(),
             selectionStore: InMemorySelectionStore(),
-            preferenceStore: InMemoryPreferenceStore(),
+            preferenceStore: preferenceStore,
             notificationScheduler: notificationScheduler,
             settingsRouter: settingsRouter
         )
+    }
+
+    private func waitForRescheduleCallCount(
+        _ scheduler: MockNotificationScheduler,
+        atLeast expected: Int,
+        file: StaticString = #filePath,
+        line: UInt = #line
+    ) async {
+        for _ in 0..<40 {
+            let value = await scheduler.rescheduleCallCount
+            if value >= expected { return }
+            try? await Task.sleep(nanoseconds: 50_000_000)
+        }
+
+        let finalCount = await scheduler.rescheduleCallCount
+        XCTFail("Expected reschedule count >= \(expected), got \(finalCount)", file: file, line: line)
     }
 }
 
@@ -63,7 +136,11 @@ private final class InMemorySelectionStore: SelectionStore, @unchecked Sendable 
 }
 
 private final class InMemoryPreferenceStore: PreferenceStore, @unchecked Sendable {
-    private var preference: NotificationPreference = .default
+    private var preference: NotificationPreference
+
+    init(preference: NotificationPreference = .default) {
+        self.preference = preference
+    }
 
     func loadPreference() -> NotificationPreference {
         preference

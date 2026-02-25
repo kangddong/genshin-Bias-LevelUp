@@ -45,62 +45,66 @@ actor UNUserNotificationScheduler: NotificationScheduling {
 
         guard !slots.isEmpty else { return }
 
-        let calendar = ServerCalendar.calendar
+        let serverCalendar = ServerCalendar.calendar
+        var deviceCalendar = Calendar(identifier: .gregorian)
+        deviceCalendar.timeZone = .autoupdatingCurrent
         let now = Date()
 
         for dayOffset in 0..<scheduleHorizonDays {
-            guard let targetDay = calendar.date(byAdding: .day, value: dayOffset, to: now) else { continue }
-            let startOfDay = calendar.startOfDay(for: targetDay)
-            let day = ServerCalendar.weekday(for: startOfDay)
-
-            let todayCharacters = availabilityService.availableCharacters(
-                on: day,
-                catalog: catalog,
-                selectedIDs: selection.selectedCharacterIDs
-            )
-            let todayWeapons = availabilityService.availableWeapons(
-                on: day,
-                catalog: catalog,
-                selectedIDs: selection.selectedWeaponIDs
-            )
-
-            guard let tomorrowDate = calendar.date(byAdding: .day, value: 1, to: startOfDay) else { continue }
-            let tomorrowDay = ServerCalendar.weekday(for: tomorrowDate)
-            let tomorrowCharacterCount = availabilityService.availableCharacters(
-                on: tomorrowDay,
-                catalog: catalog,
-                selectedIDs: selection.selectedCharacterIDs
-            ).count
-            let tomorrowWeaponCount = availabilityService.availableWeapons(
-                on: tomorrowDay,
-                catalog: catalog,
-                selectedIDs: selection.selectedWeaponIDs
-            ).count
-
-            let hasAvailableItems = !todayCharacters.isEmpty || !todayWeapons.isEmpty || tomorrowCharacterCount > 0 || tomorrowWeaponCount > 0
-            guard hasAvailableItems else { continue }
-
-            let payload = contentBuilder.build(
-                day: day,
-                todayCharacters: todayCharacters,
-                todayWeapons: todayWeapons,
-                tomorrowCharacterCount: tomorrowCharacterCount,
-                tomorrowWeaponCount: tomorrowWeaponCount,
-                favoriteCharacterID: selection.favoriteCharacterID,
-                favoriteWeaponID: selection.favoriteWeaponID
-            )
+            guard let targetDay = deviceCalendar.date(byAdding: .day, value: dayOffset, to: now) else { continue }
+            let localStartOfDay = deviceCalendar.startOfDay(for: targetDay)
 
             for slot in slots {
-                guard let scheduledDate = scheduledDate(on: startOfDay, hour: slot.hour, minute: slot.minute, calendar: calendar),
+                guard let scheduledDate = scheduledDate(on: localStartOfDay, hour: slot.hour, minute: slot.minute, calendar: deviceCalendar),
                       scheduledDate > now else { continue }
 
-                let requestIdentifier = requestIdentifier(for: scheduledDate, calendar: calendar)
+                let serverDay = ServerCalendar.weekday(for: scheduledDate)
+                let serverStartOfDay = serverCalendar.startOfDay(for: scheduledDate)
+
+                let todayCharacters = availabilityService.availableCharacters(
+                    on: serverDay,
+                    catalog: catalog,
+                    selectedIDs: selection.selectedCharacterIDs
+                )
+                let todayWeapons = availabilityService.availableWeapons(
+                    on: serverDay,
+                    catalog: catalog,
+                    selectedIDs: selection.selectedWeaponIDs
+                )
+
+                guard let tomorrowDate = serverCalendar.date(byAdding: .day, value: 1, to: serverStartOfDay) else { continue }
+                let tomorrowDay = ServerCalendar.weekday(for: tomorrowDate)
+                let tomorrowCharacterCount = availabilityService.availableCharacters(
+                    on: tomorrowDay,
+                    catalog: catalog,
+                    selectedIDs: selection.selectedCharacterIDs
+                ).count
+                let tomorrowWeaponCount = availabilityService.availableWeapons(
+                    on: tomorrowDay,
+                    catalog: catalog,
+                    selectedIDs: selection.selectedWeaponIDs
+                ).count
+
+                let hasAvailableItems = !todayCharacters.isEmpty || !todayWeapons.isEmpty || tomorrowCharacterCount > 0 || tomorrowWeaponCount > 0
+                guard hasAvailableItems else { continue }
+
+                let payload = contentBuilder.build(
+                    day: serverDay,
+                    todayCharacters: todayCharacters,
+                    todayWeapons: todayWeapons,
+                    tomorrowCharacterCount: tomorrowCharacterCount,
+                    tomorrowWeaponCount: tomorrowWeaponCount,
+                    favoriteCharacterID: selection.favoriteCharacterID,
+                    favoriteWeaponID: selection.favoriteWeaponID
+                )
+
+                let requestIdentifier = requestIdentifier(for: scheduledDate, calendar: deviceCalendar)
                 let request = makeRequest(
                     identifier: requestIdentifier,
                     payload: payload,
                     fireDate: scheduledDate,
                     imagePath: payload.imagePath,
-                    calendar: calendar
+                    calendar: deviceCalendar
                 )
                 try? await center.add(request)
             }
@@ -125,13 +129,19 @@ actor UNUserNotificationScheduler: NotificationScheduling {
         }
 
         var components = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: fireDate)
-        components.timeZone = ServerCalendar.serverTimeZone
+        components.timeZone = calendar.timeZone
         let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
         return UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
     }
 
     private func removePreviouslyScheduledRequests() async {
-        center.removeAllPendingNotificationRequests()
+        let pending = await center.pendingNotificationRequests()
+        let identifiers = pending
+            .map(\.identifier)
+            .filter { $0.hasPrefix(identifierPrefix) }
+
+        guard !identifiers.isEmpty else { return }
+        center.removePendingNotificationRequests(withIdentifiers: identifiers)
     }
 
     private func normalizedTimeSlots(_ slots: [NotificationTimeSlot]) -> [NotificationTimeSlot] {
@@ -154,7 +164,7 @@ actor UNUserNotificationScheduler: NotificationScheduling {
         components.hour = hour
         components.minute = minute
         components.second = 0
-        components.timeZone = ServerCalendar.serverTimeZone
+        components.timeZone = calendar.timeZone
         return calendar.date(from: components)
     }
 
