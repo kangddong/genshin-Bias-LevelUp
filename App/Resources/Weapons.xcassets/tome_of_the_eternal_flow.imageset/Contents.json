@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "tome_of_the_eternal_flow.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

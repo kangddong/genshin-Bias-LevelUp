@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "staff_of_homa.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

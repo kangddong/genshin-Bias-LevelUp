@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "lost_prayer_to_the_sacred_winds.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

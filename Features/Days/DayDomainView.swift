@@ -95,7 +95,7 @@ struct DayDomainView: View {
                 placement: .navigationBarDrawer(displayMode: .always),
                 prompt: searchPrompt
             )
-            .settingsToolbarSheet()
+            .settingsToolbarNavigation()
             .dsNavigationBar()
         }
     }

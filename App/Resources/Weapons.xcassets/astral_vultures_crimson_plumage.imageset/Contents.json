@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "astral_vultures_crimson_plumage.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "sword_of_descension.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

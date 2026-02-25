@@ -10,6 +10,8 @@ struct TrackableMaterialDetailView: View {
     let schedule: DomainSchedule?
     let isSelected: Bool
     let onToggle: () -> Void
+    let isFavorite: Bool
+    let onToggleFavorite: (() -> Void)?
 
     init(
         localImagePath: String?,
@@ -20,7 +22,9 @@ struct TrackableMaterialDetailView: View {
         materialSectionTitle: String = "특성 재료",
         schedule: DomainSchedule?,
         isSelected: Bool,
-        onToggle: @escaping () -> Void
+        onToggle: @escaping () -> Void,
+        isFavorite: Bool = false,
+        onToggleFavorite: (() -> Void)? = nil
     ) {
         self.localImagePath = localImagePath
         self.imageURLs = imageURLs
@@ -31,6 +35,8 @@ struct TrackableMaterialDetailView: View {
         self.schedule = schedule
         self.isSelected = isSelected
         self.onToggle = onToggle
+        self.isFavorite = isFavorite
+        self.onToggleFavorite = onToggleFavorite
     }
 
     var body: some View {
@@ -67,6 +73,16 @@ struct TrackableMaterialDetailView: View {
                             Text(subtitle)
                                 .font(DSTypography.body)
                                 .foregroundStyle(DSColor.textSecondary)
+
+                            if isSelected, let onToggleFavorite {
+                                if isFavorite {
+                                    Button("최애 해제", action: onToggleFavorite)
+                                        .buttonStyle(DSSecondaryButtonStyle())
+                                } else {
+                                    Button("최애 설정", action: onToggleFavorite)
+                                        .buttonStyle(DSPrimaryButtonStyle())
+                                }
+                            }
                         }
                     }
 

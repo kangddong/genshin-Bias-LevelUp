@@ -64,7 +64,9 @@ struct CharacterListView: View {
                                     character: character,
                                     schedule: store.catalog.schedulesByMaterial[character.materialId],
                                     isSelected: store.selection.selectedCharacterIDs.contains(character.id),
-                                    onToggle: { store.toggleCharacter(character.id) }
+                                    isFavorite: store.selection.favoriteCharacterID == character.id,
+                                    onToggle: { store.toggleCharacter(character.id) },
+                                    onToggleFavorite: { store.setFavoriteCharacter(character.id) }
                                 )
                             }
                         }
@@ -74,7 +76,7 @@ struct CharacterListView: View {
             }
             .navigationTitle("캐릭터")
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "캐릭터 검색")
-            .settingsToolbarSheet()
+            .settingsToolbarNavigation()
             .dsNavigationBar()
         }
     }
@@ -122,7 +124,9 @@ private struct CharacterCatalogCardView: View {
     let character: Character
     let schedule: DomainSchedule?
     let isSelected: Bool
+    let isFavorite: Bool
     let onToggle: () -> Void
+    let onToggleFavorite: () -> Void
 
     var body: some View {
         DSCard {
@@ -138,7 +142,14 @@ private struct CharacterCatalogCardView: View {
                 }
 
                 NavigationLink {
-                    CharacterDetailView(character: character, schedule: schedule, isSelected: isSelected, onToggle: onToggle)
+                    CharacterDetailView(
+                        character: character,
+                        schedule: schedule,
+                        isSelected: isSelected,
+                        onToggle: onToggle,
+                        isFavorite: isFavorite,
+                        onToggleFavorite: onToggleFavorite
+                    )
                 } label: {
                     Text("자세히 보기")
                         .frame(maxWidth: .infinity)

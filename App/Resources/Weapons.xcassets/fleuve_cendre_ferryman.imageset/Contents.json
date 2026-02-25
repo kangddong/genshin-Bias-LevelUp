@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "fleuve_cendre_ferryman.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

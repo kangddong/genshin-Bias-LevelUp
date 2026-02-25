@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "ring_of_yaxche.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

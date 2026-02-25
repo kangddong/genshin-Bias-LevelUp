@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "ash_graven_drinking_horn.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

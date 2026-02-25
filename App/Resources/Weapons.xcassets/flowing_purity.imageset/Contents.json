@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "flowing_purity.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,37 +1,23 @@
 import SwiftUI
 
-private struct SettingsToolbarSheetModifier: ViewModifier {
-    @State private var isSettingsPresented = false
-
+private struct SettingsToolbarNavigationModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        isSettingsPresented = true
+                    NavigationLink {
+                        MyPageView()
                     } label: {
                         Image(systemName: "gearshape")
                     }
-                    .accessibilityLabel("설정")
-                }
-            }
-            .sheet(isPresented: $isSettingsPresented) {
-                NavigationStack {
-                    SettingsView()
-                        .toolbar {
-                            ToolbarItem(placement: .topBarTrailing) {
-                                Button("닫기") {
-                                    isSettingsPresented = false
-                                }
-                            }
-                        }
+                    .accessibilityLabel("마이페이지")
                 }
             }
     }
 }
 
 extension View {
-    func settingsToolbarSheet() -> some View {
-        modifier(SettingsToolbarSheetModifier())
+    func settingsToolbarNavigation() -> some View {
+        modifier(SettingsToolbarNavigationModifier())
     }
 }

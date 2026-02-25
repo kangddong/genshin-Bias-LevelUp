@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "haran_geppaku_futsu.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

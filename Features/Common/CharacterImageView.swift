@@ -60,14 +60,9 @@ struct CharacterImageView: View {
             Color(.secondarySystemBackground)
             switch placeholderStyle {
             case .character:
-                if let paimon = Self.paimonPlaceholder {
-                    Image(uiImage: paimon)
-                        .resizable()
-                        .scaledToFill()
-                } else {
-                    Image(systemName: "person.fill")
-                        .foregroundStyle(.secondary)
-                }
+              Image(.paimon)
+                    .resizable()
+                    .scaledToFill()
             case .symbol(let systemName):
                 Image(systemName: systemName)
                     .foregroundStyle(.secondary)
@@ -75,12 +70,6 @@ struct CharacterImageView: View {
         }
     }
 
-    private static let paimonPlaceholder: UIImage? = {
-        guard let base = Bundle.main.resourceURL else { return nil }
-        let url = base.appendingPathComponent("Images/placeholders/paimon.png")
-        guard let data = try? Data(contentsOf: url) else { return nil }
-        return UIImage(data: data)
-    }()
 }
 
 @MainActor
@@ -149,11 +138,26 @@ private final class CharacterImageLoader: ObservableObject {
     }
 
     private func loadLocalImage(path: String) -> UIImage? {
-        guard let base = Bundle.main.resourceURL else { return nil }
-        let fileURL = base.appendingPathComponent(path)
-        guard FileManager.default.fileExists(atPath: fileURL.path) else { return nil }
-        guard let data = try? Data(contentsOf: fileURL) else { return nil }
-        return UIImage(data: data)
+        if let base = Bundle.main.resourceURL {
+            let fileURL = base.appendingPathComponent(path)
+            if FileManager.default.fileExists(atPath: fileURL.path),
+               let data = try? Data(contentsOf: fileURL),
+               let image = UIImage(data: data) {
+                return image
+            }
+        }
+
+        let assetName = assetName(from: path)
+        guard !assetName.isEmpty else { return nil }
+        return UIImage(named: assetName, in: .main, with: nil)
+    }
+
+    private func assetName(from path: String) -> String {
+        let withoutExtension = (path as NSString).deletingPathExtension
+        if let tail = withoutExtension.split(separator: "/").last {
+            return String(tail)
+        }
+        return withoutExtension
     }
 
     private func fetchImage(from url: URL) async -> UIImage? {

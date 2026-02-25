@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "rainbow_serpents_rain_bow.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

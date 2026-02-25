@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "aqua_simulacra.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

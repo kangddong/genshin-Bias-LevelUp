@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "elegy_for_the_end.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "staff_of_the_scarlet_sands.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "harbinger_of_dawn.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

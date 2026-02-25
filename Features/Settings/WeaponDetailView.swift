@@ -5,6 +5,8 @@ struct WeaponDetailView: View {
     let schedule: DomainSchedule?
     let isSelected: Bool
     let onToggle: () -> Void
+    let isFavorite: Bool
+    let onToggleFavorite: () -> Void
 
     var body: some View {
         TrackableMaterialDetailView(
@@ -16,7 +18,9 @@ struct WeaponDetailView: View {
             materialSectionTitle: "돌파 재료",
             schedule: schedule,
             isSelected: isSelected,
-            onToggle: onToggle
+            onToggle: onToggle,
+            isFavorite: isFavorite,
+            onToggleFavorite: onToggleFavorite
         )
     }
 }

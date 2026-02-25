@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "calamity_of_eshu.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

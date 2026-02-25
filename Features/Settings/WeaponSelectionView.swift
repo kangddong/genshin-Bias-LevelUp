@@ -47,7 +47,9 @@ struct WeaponListView: View {
                                     weapon: weapon,
                                     schedule: store.catalog.schedulesByMaterial[weapon.materialId],
                                     isSelected: store.selection.selectedWeaponIDs.contains(weapon.id),
-                                    onToggle: { store.toggleWeapon(weapon.id) }
+                                    isFavorite: store.selection.favoriteWeaponID == weapon.id,
+                                    onToggle: { store.toggleWeapon(weapon.id) },
+                                    onToggleFavorite: { store.setFavoriteWeapon(weapon.id) }
                                 )
                             }
                         }
@@ -57,7 +59,7 @@ struct WeaponListView: View {
             }
             .navigationTitle("무기")
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "무기 검색")
-            .settingsToolbarSheet()
+            .settingsToolbarNavigation()
             .dsNavigationBar()
         }
     }
@@ -72,7 +74,9 @@ private struct WeaponCatalogCardView: View {
     let weapon: Weapon
     let schedule: DomainSchedule?
     let isSelected: Bool
+    let isFavorite: Bool
     let onToggle: () -> Void
+    let onToggleFavorite: () -> Void
 
     var body: some View {
         DSCard {
@@ -89,7 +93,14 @@ private struct WeaponCatalogCardView: View {
                 }
 
                 NavigationLink {
-                    WeaponDetailView(weapon: weapon, schedule: schedule, isSelected: isSelected, onToggle: onToggle)
+                    WeaponDetailView(
+                        weapon: weapon,
+                        schedule: schedule,
+                        isSelected: isSelected,
+                        onToggle: onToggle,
+                        isFavorite: isFavorite,
+                        onToggleFavorite: onToggleFavorite
+                    )
                 } label: {
                     Text("자세히 보기")
                         .frame(maxWidth: .infinity)

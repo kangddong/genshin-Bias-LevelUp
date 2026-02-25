@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "the_first_great_magic.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

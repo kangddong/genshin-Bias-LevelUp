@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "lumidouce_elegy.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
