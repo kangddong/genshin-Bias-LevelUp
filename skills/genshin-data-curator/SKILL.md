@@ -17,12 +17,16 @@ node skills/genshin-data-curator/scripts/generate_from_genshin_db.js Resources/D
 ```bash
 python3 skills/genshin-data-curator/scripts/download_character_images.py
 ```
-4. Run validation script:
+4. To bundle weapon icons locally, run:
+```bash
+python3 skills/genshin-data-curator/scripts/download_weapon_images.py
+```
+5. Run validation script:
 ```bash
 python3 skills/genshin-data-curator/scripts/validate_genshin_json.py Resources/Data
 ```
-5. Fix reported schema or reference errors.
-6. If schema changes are intentional, update `references/schema.md` and related Swift models.
+6. Fix reported schema or reference errors.
+7. If schema changes are intentional, update `references/schema.md` and related Swift models.
 
 ## Rules
 - IDs must be unique and lowercase snake/camel-style strings without spaces.

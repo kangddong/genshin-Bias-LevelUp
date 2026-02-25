@@ -17,6 +17,7 @@ VALID_NATIONS = {
 }
 VALID_WEEKDAYS = {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"}
 VALID_KIND = {"character", "weapon"}
+VALID_WEAPON_TYPE = {"sword", "claymore", "polearm", "catalyst", "bow"}
 
 
 def load_json(path: Path):
@@ -73,7 +74,7 @@ def validate(data_dir: Path):
 
     for i, item in enumerate(weapons):
         prefix = f"weapons[{i}]"
-        for key in ("id", "name", "rarity", "materialId"):
+        for key in ("id", "image", "name", "rarity", "type", "materialId"):
             if key not in item:
                 errors.append(f"{prefix}: missing {key}")
         wid = item.get("id")
@@ -81,9 +82,20 @@ def validate(data_dir: Path):
             errors.append(f"{prefix}: duplicate id {wid}")
         if wid:
             weapon_ids.add(wid)
+        if not isinstance(item.get("image"), str):
+            errors.append(f"{prefix}: image must be string")
+        local_image = item.get("localImage")
+        if local_image is not None and not isinstance(local_image, str):
+            errors.append(f"{prefix}: localImage must be string when present")
+        alternatives = item.get("imageAlternatives")
+        if alternatives is not None:
+            if not isinstance(alternatives, list) or not all(isinstance(x, str) for x in alternatives):
+                errors.append(f"{prefix}: imageAlternatives must be array<string> when present")
         rarity = item.get("rarity")
         if not isinstance(rarity, int) or not (1 <= rarity <= 5):
             errors.append(f"{prefix}: rarity must be integer 1...5")
+        if item.get("type") not in VALID_WEAPON_TYPE:
+            errors.append(f"{prefix}: invalid type {item.get('type')}")
         if item.get("materialId"):
             material_ids.add(item["materialId"])
 

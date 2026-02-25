@@ -43,6 +43,14 @@ const REGION_MAP = {
   Snezhnaya: 'snezhnaya'
 };
 
+const WEAPON_TYPE_MAP = {
+  WEAPON_SWORD_ONE_HAND: 'sword',
+  WEAPON_CLAYMORE: 'claymore',
+  WEAPON_POLE: 'polearm',
+  WEAPON_CATALYST: 'catalyst',
+  WEAPON_BOW: 'bow'
+};
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -172,10 +180,22 @@ function buildData() {
       queryLanguages: ['English']
     }) || weaponEn;
 
+    const imageCandidates = uniqueNonEmpty([
+      weaponKo.images?.icon,
+      weaponKo.images?.mihoyo_icon,
+      weaponKo.images?.mihoyo_awakenIcon,
+      weaponEn.images?.icon,
+      weaponEn.images?.mihoyo_icon,
+      weaponEn.images?.mihoyo_awakenIcon
+    ]);
+
     const item = {
       id: slugify(enName),
       name: weaponKo.name,
       rarity: Number(weaponEn.rarity) || 1,
+      image: imageCandidates[0] || '',
+      imageAlternatives: imageCandidates.slice(1),
+      type: WEAPON_TYPE_MAP[weaponEn.weaponType] || 'sword',
       materialId: material.materialId
     };
 

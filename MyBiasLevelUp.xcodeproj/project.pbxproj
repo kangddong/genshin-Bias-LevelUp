@@ -16,6 +16,7 @@
 		2502CE10A65E874877F5D2B3 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B3B086956D41FE9836E65 /* CharacterDetailView.swift */; };
 		29F51E58839A5B60DDFFE296 /* WeaponType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525855E2E40FD274FD2820EB /* WeaponType.swift */; };
 		2D0482587AD8F6BCE5B774CE /* DeviceCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F0F14C768E2F81A13F78B /* DeviceCalendarTests.swift */; };
+		2F1FCE030228B7C0614AE775 /* TrackableMaterialDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA571D188E31EF9608266BBA /* TrackableMaterialDetailView.swift */; };
 		2FF02C0A03122AB48C515A46 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3227EB538EB5BFC53F074959 /* SettingsView.swift */; };
 		32453C3F85A5A07E7914BE0A /* DomainAvailabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063B4FF1C0E1C612BC9B48A /* DomainAvailabilityService.swift */; };
 		35228480E2129B1C54C7E2DC /* weapons.json in Resources */ = {isa = PBXBuildFile; fileRef = 454D0E913A29D34B14A56B30 /* weapons.json */; };
@@ -23,6 +24,7 @@
 		3FEF765A3D8DD4A0B64EAEC1 /* NationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD44FB6377A0CF4C97D90A /* NationType.swift */; };
 		44D8A8F5DA9282252D4CAF85 /* NotificationContentBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD008663498B51C4AB06FBD4 /* NotificationContentBuilderTests.swift */; };
 		49BD00A998254CCE1FCE8337 /* UNUserNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D354B727FEB0F0908360B5 /* UNUserNotificationScheduler.swift */; };
+		4FDFE32906C099E7CCFA4746 /* WeaponDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3506E17A46BE7B389824E50 /* WeaponDetailView.swift */; };
 		6561BCD41A4744613F458ECF /* MyBiasLevelUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABE4872E024A180168FB7D /* MyBiasLevelUpApp.swift */; };
 		6C7C4871B3AB98487C376DD3 /* ElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A579527FA76E223C2ED2E0E6 /* ElementType.swift */; };
 		6CFCC049874FB52A38F7FCA7 /* GameDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC922F15C1C39B9DB31C35 /* GameDataRepository.swift */; };
@@ -115,12 +117,14 @@
 		CB41B3648F486B13C7F4EA32 /* DomainAvailabilityServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainAvailabilityServiceTests.swift; sourceTree = "<group>"; };
 		CD0D478B50E2E8523F6C272C /* schedules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schedules.json; sourceTree = "<group>"; };
 		CF84CF980C9D0F9265BB7AA0 /* WeekdayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayType.swift; sourceTree = "<group>"; };
+		D3506E17A46BE7B389824E50 /* WeaponDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponDetailView.swift; sourceTree = "<group>"; };
 		D85954FFDB6A66DF00965997 /* DomainSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainSchedule.swift; sourceTree = "<group>"; };
 		D89ACA84B574945A41E7DED5 /* MyBiasLevelUp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyBiasLevelUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3F0F14C768E2F81A13F78B /* DeviceCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCalendarTests.swift; sourceTree = "<group>"; };
 		DCF97F5151987AAB9E35C2B9 /* UserDefaultsSelectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSelectionStore.swift; sourceTree = "<group>"; };
 		E08CDDD25519EA27B8D34465 /* SettingsToolbarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToolbarSheet.swift; sourceTree = "<group>"; };
 		EA32DA81FF01BF257BC87330 /* ServerCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCalendarTests.swift; sourceTree = "<group>"; };
+		EA571D188E31EF9608266BBA /* TrackableMaterialDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableMaterialDetailView.swift; sourceTree = "<group>"; };
 		F3CD44FB6377A0CF4C97D90A /* NationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationType.swift; sourceTree = "<group>"; };
 		FA13C773EA24442590893F2C /* WeaponSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSelectionView.swift; sourceTree = "<group>"; };
 		FD008663498B51C4AB06FBD4 /* NotificationContentBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationContentBuilderTests.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				ADF6CB107AF145D9CBD3E86F /* CharacterImageView.swift */,
 				E08CDDD25519EA27B8D34465 /* SettingsToolbarSheet.swift */,
 				154D12586747E7FABAA44797 /* TagChip.swift */,
+				EA571D188E31EF9608266BBA /* TrackableMaterialDetailView.swift */,
 				3F00AD79761635477150B0B6 /* WeaponCardView.swift */,
 			);
 			path = Common;
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				3227EB538EB5BFC53F074959 /* SettingsView.swift */,
+				D3506E17A46BE7B389824E50 /* WeaponDetailView.swift */,
 				FA13C773EA24442590893F2C /* WeaponSelectionView.swift */,
 			);
 			path = Settings;
@@ -478,12 +484,14 @@
 				BB6548545B00500C77FA34E5 /* SettingsToolbarSheet.swift in Sources */,
 				2FF02C0A03122AB48C515A46 /* SettingsView.swift in Sources */,
 				BA5C3CBC28D5210CDA1FCBFE /* TagChip.swift in Sources */,
+				2F1FCE030228B7C0614AE775 /* TrackableMaterialDetailView.swift in Sources */,
 				49BD00A998254CCE1FCE8337 /* UNUserNotificationScheduler.swift in Sources */,
 				A8B64FC79B796DA89BA21C8E /* UserDefaultsPreferenceStore.swift in Sources */,
 				80C85CAA645552929C56BA3D /* UserDefaultsSelectionStore.swift in Sources */,
 				E965C87061A2EF62344D07B6 /* UserSelection.swift in Sources */,
 				CBB4F6A63303E3D28C3E9708 /* Weapon.swift in Sources */,
 				B0D41314CDEA7F66BF195956 /* WeaponCardView.swift in Sources */,
+				4FDFE32906C099E7CCFA4746 /* WeaponDetailView.swift in Sources */,
 				9EAEB9756367FC73FF74B092 /* WeaponSelectionView.swift in Sources */,
 				29F51E58839A5B60DDFFE296 /* WeaponType.swift in Sources */,
 				AE3A7FD425B21494003ADF0F /* WeekdayType.swift in Sources */,

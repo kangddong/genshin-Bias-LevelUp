@@ -45,6 +45,7 @@ struct WeaponListView: View {
                             ForEach(displayedWeapons) { weapon in
                                 WeaponCatalogCardView(
                                     weapon: weapon,
+                                    schedule: store.catalog.schedulesByMaterial[weapon.materialId],
                                     isSelected: store.selection.selectedWeaponIDs.contains(weapon.id),
                                     onToggle: { store.toggleWeapon(weapon.id) }
                                 )
@@ -69,6 +70,7 @@ struct WeaponListView: View {
 
 private struct WeaponCatalogCardView: View {
     let weapon: Weapon
+    let schedule: DomainSchedule?
     let isSelected: Bool
     let onToggle: () -> Void
 
@@ -86,13 +88,13 @@ private struct WeaponCatalogCardView: View {
                     SelectionCheckButton(isSelected: isSelected, onTap: onToggle)
                 }
 
-                if isSelected {
-                    Button("추적 해제", action: onToggle)
-                        .buttonStyle(DSSecondaryButtonStyle())
-                } else {
-                    Button("추적하기", action: onToggle)
-                        .buttonStyle(DSPrimaryButtonStyle())
+                NavigationLink {
+                    WeaponDetailView(weapon: weapon, schedule: schedule, isSelected: isSelected, onToggle: onToggle)
+                } label: {
+                    Text("자세히 보기")
+                        .frame(maxWidth: .infinity)
                 }
+                .buttonStyle(DSSecondaryButtonStyle())
             }
         }
     }

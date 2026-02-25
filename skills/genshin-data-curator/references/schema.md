@@ -9,8 +9,12 @@
 - `nation`: `mondstadt|liyue|inazuma|sumeru|fontaine|natlan|nodkrai|snezhnaya|other`
 
 ## weapons.json
-- item fields: `id`, `name`, `rarity`, `materialId`
+- item fields: `id`, `image`, `imageAlternatives`, `name`, `rarity`, `type`, `materialId`
 - `rarity`: integer 1...5
+- `type`: `sword|claymore|polearm|catalyst|bow`
+- `image`: weapon icon URL string
+- `imageAlternatives`: optional fallback URL array
+- `localImage`: optional bundled file path (for example `Images/weapons/the_catch.png`)
 
 ## schedules.json
 - item fields: `materialId`, `materialName`, `domainName`, `weekdays`, `kind`
