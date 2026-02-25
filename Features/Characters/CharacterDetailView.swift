@@ -7,52 +7,63 @@ struct CharacterDetailView: View {
     let onToggle: () -> Void
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                HStack(alignment: .top) {
-                    CharacterImageView(localImagePath: character.localImage, imageURLs: character.imageCandidates, size: 108)
+        ZStack {
+            DSBackgroundLayer()
 
-                    Spacer()
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    DSCard {
+                        VStack(alignment: .leading, spacing: 12) {
+                            HStack(alignment: .top) {
+                                CharacterImageView(localImagePath: character.localImage, imageURLs: character.imageCandidates, size: 108)
 
-                    Button(isSelected ? "추적 해제" : "추적하기", action: onToggle)
-                        .buttonStyle(.borderedProminent)
-                }
+                                Spacer()
 
-                Text(character.name)
-                    .font(.title2)
-                    .fontWeight(.bold)
+                                if isSelected {
+                                    Button("추적 해제", action: onToggle)
+                                        .buttonStyle(DSSecondaryButtonStyle())
+                                } else {
+                                    Button("추적하기", action: onToggle)
+                                        .buttonStyle(DSPrimaryButtonStyle())
+                                }
+                            }
 
-                Text("\(character.element.displayName) / \(character.nation.displayName)")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                            Text(character.name)
+                                .font(DSTypography.section)
+                                .foregroundStyle(DSColor.textPrimary)
 
-                VStack(alignment: .leading, spacing: 10) {
-                    Text("특성 재료")
-                        .font(.headline)
-
-                    if let schedule {
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text(schedule.materialName)
-                                .font(.body)
-                            Text(weekdayText(schedule.weekdays))
-                                .font(.footnote)
-                                .foregroundStyle(.secondary)
+                            Text("\(character.element.displayName) / \(character.nation.displayName)")
+                                .font(DSTypography.body)
+                                .foregroundStyle(DSColor.textSecondary)
                         }
-                        .padding()
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color(.secondarySystemBackground))
-                        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    }
+
+                    DSSectionHeader(title: "특성 재료", trailing: nil)
+                    if let schedule {
+                        DSCard {
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text(schedule.materialName)
+                                    .font(DSTypography.headline)
+                                    .foregroundStyle(DSColor.textPrimary)
+                                Text(weekdayText(schedule.weekdays))
+                                    .font(DSTypography.body)
+                                    .foregroundStyle(DSColor.textSecondary)
+                            }
+                        }
                     } else {
-                        Text("재료 정보를 찾을 수 없습니다.")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
+                        DSCard {
+                            Text("재료 정보를 찾을 수 없습니다.")
+                                .font(DSTypography.body)
+                                .foregroundStyle(DSColor.textSecondary)
+                        }
                     }
                 }
+                .padding()
             }
-            .padding()
         }
         .navigationTitle("자세히 보기")
         .navigationBarTitleDisplayMode(.inline)
+        .dsNavigationBar()
     }
 
     private func weekdayText(_ weekdays: [WeekdayType]) -> String {

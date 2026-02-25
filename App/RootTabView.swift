@@ -13,10 +13,13 @@ struct RootTabView: View {
                     Label("요일 비경", systemImage: "calendar")
                 }
 
-            SettingsView()
+            WeaponListView()
                 .tabItem {
-                    Label("설정", systemImage: "gearshape")
+                    Label("무기", systemImage: "shield.lefthalf.filled")
                 }
         }
+        .tint(DSColor.primary)
+        .toolbarBackground(.visible, for: .tabBar)
+        .toolbarBackground(DSColor.panelStrong, for: .tabBar)
     }
 }

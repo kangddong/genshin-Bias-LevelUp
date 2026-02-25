@@ -5,23 +5,33 @@ struct WeaponCardView: View {
     let isSelected: Bool
     let onToggle: () -> Void
 
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack {
-                Text(weapon.name)
-                    .font(.headline)
-                Spacer()
-                Text("★\(weapon.rarity)")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
+    private let minCardHeight: CGFloat = 170
 
-            Button(isSelected ? "추적 해제" : "추적하기", action: onToggle)
-                .font(.caption)
-                .buttonStyle(.bordered)
+    var body: some View {
+        DSCard {
+            VStack(alignment: .leading, spacing: 10) {
+                CardIdentitySection(
+                    localImagePath: weapon.localImage,
+                    imageURLs: weapon.imageCandidates,
+                    title: weapon.name,
+                    subtitle: "\(weapon.type.displayName) · ★\(weapon.rarity)",
+                    imageSize: 42,
+                    placeholderStyle: .symbol("shield.lefthalf.filled")
+                ) {
+                    SelectionCheckButton(isSelected: isSelected, onTap: onToggle)
+                }
+
+                Spacer(minLength: 0)
+
+                if isSelected {
+                    Button("추적 해제", action: onToggle)
+                        .buttonStyle(DSSecondaryButtonStyle())
+                } else {
+                    Button("추적하기", action: onToggle)
+                        .buttonStyle(DSPrimaryButtonStyle())
+                }
+            }
+            .frame(maxWidth: .infinity, minHeight: minCardHeight, alignment: .topLeading)
         }
-        .padding()
-        .background(Color(.secondarySystemBackground))
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }

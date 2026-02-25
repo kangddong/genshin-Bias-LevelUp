@@ -3,6 +3,8 @@ import SwiftUI
 private enum DayDisplayScope: String, CaseIterable, Identifiable {
     case selected
     case all
+    case character
+    case weapon
 
     var id: String { rawValue }
 
@@ -10,97 +12,134 @@ private enum DayDisplayScope: String, CaseIterable, Identifiable {
         switch self {
         case .selected: return "선택한 대상"
         case .all: return "전체"
+        case .character: return "캐릭터"
+        case .weapon: return "무기"
         }
     }
 }
 
 struct DayDomainView: View {
     @EnvironmentObject private var store: AppStore
-    @State private var selectedDay: WeekdayType = ServerCalendar.weekday()
+    @State private var selectedDay: WeekdayType = DeviceCalendar.weekday()
     @State private var scope: DayDisplayScope = .selected
+    @State private var searchText = ""
 
     private let columns = [GridItem(.flexible()), GridItem(.flexible())]
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 16) {
-                    Picker("요일", selection: $selectedDay) {
-                        ForEach(WeekdayType.ordered) { day in
-                            Text(day.shortName).tag(day)
-                        }
-                    }
-                    .pickerStyle(.segmented)
+            ZStack {
+                DSBackgroundLayer()
 
-                    Picker("표시 대상", selection: $scope) {
-                        ForEach(DayDisplayScope.allCases) { mode in
-                            Text(mode.title).tag(mode)
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 16) {
+                        DSCard {
+                            VStack(alignment: .leading, spacing: 10) {
+                                Text("오늘의 비경")
+                                    .font(DSTypography.headline)
+                                    .foregroundStyle(DSColor.textPrimary)
+                                Text("요일을 바꿔 캐릭터 특성/무기 돌파 가능 목록을 확인하세요.")
+                                    .font(DSTypography.body)
+                                    .foregroundStyle(DSColor.textSecondary)
+                            }
                         }
-                    }
-                    .pickerStyle(.segmented)
 
-                    sectionHeader(title: "캐릭터 육성", count: availableCharacters.count)
-                    LazyVGrid(columns: columns, spacing: 12) {
-                        ForEach(availableCharacters) { character in
-                            CharacterCardView(
-                                character: character,
-                                isSelected: store.selection.selectedCharacterIDs.contains(character.id),
-                                onToggle: { store.toggleCharacter(character.id) }
-                            )
+                        Picker("요일", selection: $selectedDay) {
+                            ForEach(WeekdayType.ordered) { day in
+                                Text(day.shortName).tag(day)
+                            }
                         }
-                    }
+                        .pickerStyle(.segmented)
+                        .tint(DSColor.primary)
 
-                    sectionHeader(title: "무기 돌파", count: availableWeapons.count)
-                    LazyVGrid(columns: columns, spacing: 12) {
-                        ForEach(availableWeapons) { weapon in
-                            WeaponCardView(
-                                weapon: weapon,
-                                isSelected: store.selection.selectedWeaponIDs.contains(weapon.id),
-                                onToggle: { store.toggleWeapon(weapon.id) }
-                            )
+                        Picker("표시 대상", selection: $scope) {
+                            ForEach(DayDisplayScope.allCases) { mode in
+                                Text(mode.title).tag(mode)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                        .tint(DSColor.primary)
+
+                        if shouldShowCharacters {
+                            DSSectionHeader(title: "캐릭터 육성", trailing: "\(displayedCharacters.count)개")
+                            LazyVGrid(columns: columns, spacing: 12) {
+                                ForEach(displayedCharacters) { character in
+                                    CharacterCardView(
+                                        character: character,
+                                        isSelected: store.selection.selectedCharacterIDs.contains(character.id),
+                                        onToggle: { store.toggleCharacter(character.id) }
+                                    )
+                                }
+                            }
+                        }
+
+                        if shouldShowWeapons {
+                            DSSectionHeader(title: "무기 돌파", trailing: "\(displayedWeapons.count)개")
+                            LazyVGrid(columns: columns, spacing: 12) {
+                                ForEach(displayedWeapons) { weapon in
+                                    WeaponCardView(
+                                        weapon: weapon,
+                                        isSelected: store.selection.selectedWeaponIDs.contains(weapon.id),
+                                        onToggle: { store.toggleWeapon(weapon.id) }
+                                    )
+                                }
+                            }
                         }
                     }
+                    .padding()
                 }
-                .padding()
             }
             .navigationTitle("요일 비경")
+            .searchable(
+                text: $searchText,
+                placement: .navigationBarDrawer(displayMode: .always),
+                prompt: searchPrompt
+            )
+            .settingsToolbarSheet()
+            .dsNavigationBar()
         }
+    }
+
+    private var shouldShowCharacters: Bool {
+        scope != .weapon
+    }
+
+    private var shouldShowWeapons: Bool {
+        scope != .character
     }
 
     private var availableCharacters: [Character] {
-        switch scope {
-        case .selected:
-            return store.availabilityService.availableCharacters(
-                on: selectedDay,
-                catalog: store.catalog,
-                selectedIDs: store.selection.selectedCharacterIDs
-            )
-        case .all:
-            return store.availabilityService.availableCharacters(on: selectedDay, catalog: store.catalog)
-        }
+        let selectedIDs: Set<String>? = scope == .selected ? store.selection.selectedCharacterIDs : nil
+        return store.availabilityService.availableCharacters(on: selectedDay, catalog: store.catalog, selectedIDs: selectedIDs)
     }
 
     private var availableWeapons: [Weapon] {
-        switch scope {
-        case .selected:
-            return store.availabilityService.availableWeapons(
-                on: selectedDay,
-                catalog: store.catalog,
-                selectedIDs: store.selection.selectedWeaponIDs
-            )
-        case .all:
-            return store.availabilityService.availableWeapons(on: selectedDay, catalog: store.catalog)
-        }
+        let selectedIDs: Set<String>? = scope == .selected ? store.selection.selectedWeaponIDs : nil
+        return store.availabilityService.availableWeapons(on: selectedDay, catalog: store.catalog, selectedIDs: selectedIDs)
     }
 
-    private func sectionHeader(title: String, count: Int) -> some View {
-        HStack {
-            Text(title)
-                .font(.headline)
-            Spacer()
-            Text("\(count)개")
-                .font(.footnote)
-                .foregroundStyle(.secondary)
+    private var displayedCharacters: [Character] {
+        guard !trimmedSearchText.isEmpty else { return availableCharacters }
+        return availableCharacters.filter { $0.name.localizedCaseInsensitiveContains(trimmedSearchText) }
+    }
+
+    private var displayedWeapons: [Weapon] {
+        guard !trimmedSearchText.isEmpty else { return availableWeapons }
+        return availableWeapons.filter { $0.name.localizedCaseInsensitiveContains(trimmedSearchText) }
+    }
+
+    private var trimmedSearchText: String {
+        searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    private var searchPrompt: String {
+        switch scope {
+        case .character:
+            return "캐릭터 검색"
+        case .weapon:
+            return "무기 검색"
+        case .selected, .all:
+            return "캐릭터/무기 검색"
         }
     }
 }

@@ -8,12 +8,18 @@ struct TagChip: View {
     var body: some View {
         Button(action: onTap) {
             Text(text)
-                .font(.subheadline)
+                .font(DSTypography.body.weight(.semibold))
                 .padding(.horizontal, 12)
-                .padding(.vertical, 8)
-                .background(isSelected ? Color.accentColor : Color(.secondarySystemBackground))
-                .foregroundStyle(isSelected ? Color.white : Color.primary)
-                .clipShape(Capsule())
+                .padding(.vertical, 9)
+                .background(
+                    Capsule()
+                        .fill(isSelected ? DSColor.primary : DSColor.panelStrong)
+                )
+                .overlay(
+                    Capsule()
+                        .stroke(isSelected ? DSColor.primary : DSColor.border, lineWidth: 1)
+                )
+                .foregroundStyle(isSelected ? Color.white : DSColor.textPrimary)
         }
         .buttonStyle(.plain)
     }

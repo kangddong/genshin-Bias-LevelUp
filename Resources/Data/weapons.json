@@ -3,1374 +3,2746 @@
     "id": "ultimate_overlords_mega_magic_sword",
     "name": "「슈퍼 울트라 패왕 마검」",
     "rarity": 4,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Champion.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Champion_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/ultimate_overlords_mega_magic_sword.png"
   },
   {
     "id": "the_catch",
     "name": "「어획」",
     "rarity": 4,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mori_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/the_catch.png"
   },
   {
     "id": "twin_nephrite",
     "name": "1급 보옥",
     "rarity": 3,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Phoney.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Phoney_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/twin_nephrite.png"
   },
   {
     "id": "beacon_of_the_reed_sea",
     "name": "갈대 바다의 등대",
     "rarity": 5,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/beacon_of_the_reed_sea.png"
   },
   {
     "id": "sword_of_descension",
     "name": "강림의 검",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Psalmus_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/sword_of_descension.png"
   },
   {
     "id": "iron_sting",
     "name": "강철 벌침",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Exotic_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/iron_sting.png"
   },
   {
     "id": "compound_bow",
     "name": "강철궁",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Exotic_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/compound_bow.png"
   },
   {
     "id": "ferrous_shadow",
     "name": "강철의 그림자",
     "rarity": 3,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/ferrous_shadow.png"
   },
   {
     "id": "range_gauge",
     "name": "거리 측정기",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Mechanic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Mechanic_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/range_gauge.png"
   },
   {
     "id": "blackmarrow_lantern",
     "name": "검은 골수의 등불",
     "rarity": 4,
-    "materialId": "artful_device_fragment"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ilmarinen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ilmarinen_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "artful_device_fragment",
+    "localImage": "Images/weapons/blackmarrow_lantern.png"
   },
   {
     "id": "athame_artis",
     "name": "검은 침식",
     "rarity": 5,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/athame_artis.png"
   },
   {
     "id": "sturdy_bone",
     "name": "견고한 골검",
     "rarity": 4,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Umpakati.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Umpakati_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/sturdy_bone.png"
   },
   {
     "id": "deathmatch",
     "name": "결투의 창",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Gladiator.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Gladiator_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/deathmatch.png"
   },
   {
     "id": "song_of_stillness",
     "name": "고요한 노래",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Vorpal_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/song_of_stillness.png"
   },
   {
     "id": "serenitys_call",
     "name": "고요한 휘파람",
     "rarity": 4,
-    "materialId": "artful_device_fragment"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Ilmarinen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Ilmarinen_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "artful_device_fragment",
+    "localImage": "Images/weapons/serenitys_call.png"
   },
   {
     "id": "splendor_of_tranquil_waters",
     "name": "고요히 샘솟는 빛",
     "rarity": 5,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Regalis.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Regalis_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/splendor_of_tranquil_waters.png"
   },
   {
     "id": "prototype_archaic",
     "name": "고화 프로토타입",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Proto_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/prototype_archaic.png"
   },
   {
     "id": "recurve_bow",
     "name": "곡궁",
     "rarity": 3,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Curve.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Curve_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/recurve_bow.png"
   },
   {
     "id": "rightful_reward",
     "name": "공의의 보상",
     "rarity": 4,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Vorpal.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Vorpal_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/rightful_reward.png"
   },
   {
     "id": "vortex_vanquisher",
     "name": "관홍의 창",
     "rarity": 5,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/vortex_vanquisher.png"
   },
   {
     "id": "snare_hook",
     "name": "그물을 뚫는 화살",
     "rarity": 4,
-    "materialId": "ember_of_long_night_flint"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ilmarinen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ilmarinen_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "ember_of_long_night_flint",
+    "localImage": "Images/weapons/snare_hook.png"
   },
   {
     "id": "polar_star",
     "name": "극지의 별",
     "rarity": 5,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/polar_star.png"
   },
   {
     "id": "etherlight_spindlelute",
     "name": "금빛 류트",
     "rarity": 4,
-    "materialId": "sundered_glory_of_the_far_north_scions"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SeeliesLute_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "sundered_glory_of_the_far_north_scions",
+    "localImage": "Images/weapons/etherlight_spindlelute.png"
   },
   {
     "id": "raven_bow",
     "name": "까마귀깃 활",
     "rarity": 3,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Crowfeather.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Crowfeather_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/raven_bow.png"
   },
   {
     "id": "mailed_flower",
     "name": "꽃 장식 대검",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fleurfair.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fleurfair_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/mailed_flower.png"
   },
   {
     "id": "toukabou_shigure",
     "name": "꽃잎비",
     "rarity": 4,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Kasabouzu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Kasabouzu_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/toukabou_shigure.png"
   },
   {
     "id": "flower_wreathed_feathers",
     "name": "꽃장식 깃",
     "rarity": 4,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Umpakati.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Umpakati_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/flower_wreathed_feathers.png"
   },
   {
     "id": "ibis_piercer",
     "name": "꿰뚫는 따오기 부리",
     "rarity": 4,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ibis.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ibis_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/ibis_piercer.png"
   },
   {
     "id": "ballad_of_the_boundless_blue",
     "name": "끝없는 쪽빛의 노래",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_DandelionPoem_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/ballad_of_the_boundless_blue.png"
   },
   {
     "id": "sunny_morning_sleep_in",
     "name": "나른한 새해",
     "rarity": 5,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SakuraFan.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_SakuraFan_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/sunny_morning_sleep_in.png"
   },
   {
     "id": "missive_windspear",
     "name": "날카로운 바람의 서신",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Windvane_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/missive_windspear.png"
   },
   {
     "id": "seasoned_hunters_bow",
     "name": "노련의 사냥활",
     "rarity": 2,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Old_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/seasoned_hunters_bow.png"
   },
   {
     "id": "fading_twilight",
     "name": "노을",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fallensun.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fallensun_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/fading_twilight.png"
   },
   {
     "id": "rust",
     "name": "녹슨 활",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/rust.png"
   },
   {
     "id": "wolf_fang",
     "name": "늑대 송곳니",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Boreas.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Boreas_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/wolf_fang.png"
   },
   {
     "id": "wolfs_gravestone",
     "name": "늑대의 말로",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/wolfs_gravestone.png"
   },
   {
     "id": "moonpiercer",
     "name": "달을 꿰뚫는 화살",
     "rarity": 4,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Arakalari_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/moonpiercer.png"
   },
   {
     "id": "moonweavers_dawn",
     "name": "달을 엮는 자의 새벽빛",
     "rarity": 4,
-    "materialId": "sundered_glory_of_the_far_north_scions"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Miekka.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Miekka_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "sundered_glory_of_the_far_north_scions",
+    "localImage": "Images/weapons/moonweavers_dawn.png"
   },
   {
     "id": "prototype_crescent",
     "name": "담월 프로토타입",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Proto.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Proto_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/prototype_crescent.png"
   },
   {
     "id": "earth_shaker",
     "name": "대지를 울리는 자",
     "rarity": 4,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Isikhulu_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/earth_shaker.png"
   },
   {
     "id": "talking_stick",
     "name": "대화봉",
     "rarity": 4,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_BeastTamer.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_BeastTamer_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/talking_stick.png"
   },
   {
     "id": "dodoco_tales",
     "name": "도도코 이야기집",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ludiharpastum.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ludiharpastum_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/dodoco_tales.png"
   },
   {
     "id": "waveriding_whirl",
     "name": "돌아오는 파도",
     "rarity": 4,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Umpakati_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/waveriding_whirl.png"
   },
   {
     "id": "alley_hunter",
     "name": "뒷골목 사냥꾼",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/alley_hunter.png"
   },
   {
     "id": "the_alley_flash",
     "name": "뒷골목의 섬광",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/the_alley_flash.png"
   },
   {
     "id": "wine_and_song",
     "name": "뒷골목의 술과 시",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/wine_and_song.png"
   },
   {
     "id": "bloodtainted_greatsword",
     "name": "드래곤 블러드 소드",
     "rarity": 3,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/bloodtainted_greatsword.png"
   },
   {
     "id": "thrilling_tales_of_dragon_slayers",
     "name": "드래곤 슬레이어 영웅담",
     "rarity": 3,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/thrilling_tales_of_dragon_slayers.png"
   },
   {
     "id": "lumidouce_elegy",
     "name": "등방울꽃의 애가",
     "rarity": 5,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Muguet.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Muguet_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/lumidouce_elegy.png"
   },
   {
     "id": "a_thousand_floating_dreams",
     "name": "떠오르는 천일 밤의 꿈",
     "rarity": 5,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/a_thousand_floating_dreams.png"
   },
   {
     "id": "scion_of_the_blazing_sun",
     "name": "뜨거운 태양의 후손",
     "rarity": 4,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Gurabad_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/scion_of_the_blazing_sun.png"
   },
   {
     "id": "magic_guide",
     "name": "마도 서론",
     "rarity": 3,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/magic_guide.png"
   },
   {
     "id": "nocturnes_curtain_call",
     "name": "막간의 야상곡",
     "rarity": 5,
-    "materialId": "sundered_glory_of_the_far_north_scions"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Brisingamen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Brisingamen_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "sundered_glory_of_the_far_north_scions",
+    "localImage": "Images/weapons/nocturnes_curtain_call.png"
   },
   {
     "id": "mappa_mare",
     "name": "만국 항해용해도",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Exotic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Exotic_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/mappa_mare.png"
   },
   {
     "id": "master_key",
     "name": "만능 열쇠",
     "rarity": 4,
-    "materialId": "sundered_glory_of_the_far_north_scions"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Ilmarinen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Ilmarinen_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "sundered_glory_of_the_far_north_scions",
+    "localImage": "Images/weapons/master_key.png"
   },
   {
     "id": "symphonist_of_scents",
     "name": "맛의 지휘자",
     "rarity": 5,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Trident.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Trident_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/symphonist_of_scents.png"
   },
   {
     "id": "aquila_favonia",
     "name": "매의 검",
     "rarity": 5,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/aquila_favonia.png"
   },
   {
     "id": "oathsworn_eye",
     "name": "맹세의 눈동자",
     "rarity": 4,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jyanome.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jyanome_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/oathsworn_eye.png"
   },
   {
     "id": "end_of_the_line",
     "name": "메마른 연못",
     "rarity": 4,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fin_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/end_of_the_line.png"
   },
   {
     "id": "mouuns_moon",
     "name": "모운의 달",
     "rarity": 4,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Maria_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/mouuns_moon.png"
   },
   {
     "id": "the_unforged",
     "name": "무공의 검",
     "rarity": 5,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/the_unforged.png"
   },
   {
     "id": "dull_blade",
     "name": "무인검",
     "rarity": 1,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blunt_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/dull_blade.png"
   },
   {
     "id": "rainbow_serpents_rain_bow",
     "name": "무지개뱀의 현",
     "rarity": 4,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/rainbow_serpents_rain_bow.png"
   },
   {
     "id": "footprint_of_the_rainbow",
     "name": "무지개의 행적",
     "rarity": 4,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Isikhulu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Isikhulu_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/footprint_of_the_rainbow.png"
   },
   {
     "id": "makhaira_aquamarine",
     "name": "물빛 마카이라",
     "rarity": 4,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/makhaira_aquamarine.png"
   },
   {
     "id": "halberd",
     "name": "미늘창",
     "rarity": 3,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Halberd_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/halberd.png"
   },
   {
     "id": "windblume_ode",
     "name": "바람 꽃의 노래",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fleurfair.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fleurfair_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/windblume_ode.png"
   },
   {
     "id": "peak_patrol_song",
     "name": "바위산을 맴도는 노래",
     "rarity": 5,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_XochitlsTube.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_XochitlsTube_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/peak_patrol_song.png"
   },
   {
     "id": "primordial_jade_cutter",
     "name": "반암결록",
     "rarity": 5,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Morax_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/primordial_jade_cutter.png"
   },
   {
     "id": "nightweavers_looking_glass",
     "name": "밤을 엮는 거울",
     "rarity": 5,
-    "materialId": "artful_device_fragment"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MenulisRing.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MenulisRing_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "artful_device_fragment",
+    "localImage": "Images/weapons/nightweavers_looking_glass.png"
   },
   {
     "id": "wandering_evenstar",
     "name": "방랑하는 저녁별",
     "rarity": 4,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/wandering_evenstar.png"
   },
   {
     "id": "white_tassel",
     "name": "백술창",
     "rarity": 3,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ruby_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/white_tassel.png"
   },
   {
     "id": "whiteblind",
     "name": "백영검",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Exotic_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/whiteblind.png"
   },
   {
     "id": "white_iron_greatsword",
     "name": "백철 대검",
     "rarity": 3,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Tin_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/white_iron_greatsword.png"
   },
   {
     "id": "the_dockhands_assistant",
     "name": "뱃도랑 장검",
     "rarity": 4,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mechanic_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/the_dockhands_assistant.png"
   },
   {
     "id": "jadefalls_splendor",
     "name": "벽락의 옥",
     "rarity": 5,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Morax.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Morax_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/jadefalls_splendor.png"
   },
   {
     "id": "prototype_starglitter",
     "name": "별의 낫 프로토타입",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Proto_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/prototype_starglitter.png"
   },
   {
     "id": "starcallers_watch",
     "name": "별지기의 시선",
     "rarity": 5,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Figurines_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/starcallers_watch.png"
   },
   {
     "id": "festering_desire",
     "name": "부식의 검",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Magnum.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Magnum_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/festering_desire.png"
   },
   {
     "id": "flame_forged_insight",
     "name": "불로 벼린 지혜",
     "rarity": 4,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Polilith.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Polilith_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/flame_forged_insight.png"
   },
   {
     "id": "everlasting_moonglow",
     "name": "불멸의 달빛",
     "rarity": 5,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/everlasting_moonglow.png"
   },
   {
     "id": "astral_vultures_crimson_plumage",
     "name": "붉은 깃 별독수리",
     "rarity": 5,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Qoyllorsnova.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Qoyllorsnova_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/astral_vultures_crimson_plumage.png"
   },
   {
     "id": "crimson_moons_semblance",
     "name": "붉은 달의 형상",
     "rarity": 5,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_BloodMoon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_BloodMoon_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/crimson_moons_semblance.png"
   },
   {
     "id": "thundering_pulse",
     "name": "비뢰의 고동",
     "rarity": 5,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/thundering_pulse.png"
   },
   {
     "id": "skyrider_greatsword",
     "name": "비천대어검",
     "rarity": 3,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Mitsurugi.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Mitsurugi_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/skyrider_greatsword.png"
   },
   {
     "id": "skyrider_sword",
     "name": "비천어검",
     "rarity": 3,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/skyrider_sword.png"
   },
   {
     "id": "emerald_orb",
     "name": "비취 오브",
     "rarity": 3,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/emerald_orb.png"
   },
   {
     "id": "rainslasher",
     "name": "빗물 베기",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/rainslasher.png"
   },
   {
     "id": "vivid_notions",
     "name": "빛나는 마음",
     "rarity": 5,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_VaresaTransformer.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_VaresaTransformer_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/vivid_notions.png"
   },
   {
     "id": "hunters_path",
     "name": "사냥꾼의 길",
     "rarity": 5,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/hunters_path.png"
   },
   {
     "id": "hunters_bow",
     "name": "사냥활",
     "rarity": 1,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Hunters_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/hunters_bow.png"
   },
   {
     "id": "absolution",
     "name": "사면",
     "rarity": 5,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Estoc.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Estoc_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/absolution.png"
   },
   {
     "id": "chain_breaker",
     "name": "사슬 파괴자",
     "rarity": 4,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Isikhulu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Isikhulu_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/chain_breaker.png"
   },
   {
     "id": "lost_prayer_to_the_sacred_winds",
     "name": "사풍 원서",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/lost_prayer_to_the_sacred_winds.png"
   },
   {
     "id": "fang_of_the_mountain_king",
     "name": "산왕의 엄니",
     "rarity": 5,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EmeraldSword.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_EmeraldSword_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/fang_of_the_mountain_king.png"
   },
   {
     "id": "mountain_bracing_bolt",
     "name": "산을 고정하는 못",
     "rarity": 4,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Umpakati.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Umpakati_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/mountain_bracing_bolt.png"
   },
   {
     "id": "dawning_frost",
     "name": "서릿빛 새벽",
     "rarity": 4,
-    "materialId": "artful_device_fragment"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ziedas.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ziedas_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "artful_device_fragment",
+    "localImage": "Images/weapons/dawning_frost.png"
   },
   {
     "id": "surfs_up",
     "name": "서핑 타임",
     "rarity": 5,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MechaPufferfish.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MechaPufferfish_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/surfs_up.png"
   },
   {
     "id": "snow_tombed_starsilver",
     "name": "설장의 성은",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Dragonfell.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Dragonfell_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/snow_tombed_starsilver.png"
   },
   {
     "id": "key_of_khaj_nisut",
     "name": "성현의 열쇠",
     "rarity": 5,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Deshret.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Deshret_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/key_of_khaj_nisut.png"
   },
   {
     "id": "eye_of_perception",
     "name": "소심",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/eye_of_perception.png"
   },
   {
     "id": "memory_of_dust",
     "name": "속세의 자물쇠",
     "rarity": 5,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/memory_of_dust.png"
   },
   {
     "id": "song_of_broken_pines",
     "name": "송뢰가 울릴 무렵",
     "rarity": 5,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/song_of_broken_pines.png"
   },
   {
     "id": "redhorn_stonethresher",
     "name": "쇄석의 붉은 뿔",
     "rarity": 5,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/redhorn_stonethresher.png"
   },
   {
     "id": "sword_of_narzissenkreuz",
     "name": "수선화 십자검",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Purewill.png",
+    "imageAlternatives": [],
+    "type": "sword",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/sword_of_narzissenkreuz.png"
   },
   {
     "id": "fruitful_hook",
     "name": "수확의 갈고리",
     "rarity": 4,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Umpakati.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Umpakati_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/fruitful_hook.png"
   },
   {
     "id": "flowing_purity",
     "name": "순수한 달빛 물결",
     "rarity": 4,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Vorpal_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/flowing_purity.png"
   },
   {
     "id": "forest_regalia",
     "name": "숲의 리게일리어",
     "rarity": 4,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Arakalari.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Arakalari_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/forest_regalia.png"
   },
   {
     "id": "tamayuratei_no_ohanashi",
     "name": "쉼터의 이야기꾼",
     "rarity": 4,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Aoandon_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/tamayuratei_no_ohanashi.png"
   },
   {
     "id": "the_bell",
     "name": "시간의 검",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/the_bell.png"
   },
   {
     "id": "calamity_queller",
     "name": "식재",
     "rarity": 5,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Santika_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/calamity_queller.png"
   },
   {
     "id": "sharpshooters_oath",
     "name": "신궁의 서약",
     "rarity": 3,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/sharpshooters_oath.png"
   },
   {
     "id": "sacrificers_staff",
     "name": "신성한 제사의 지팡이",
     "rarity": 4,
-    "materialId": "ember_of_long_night_flint"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Krivule.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Krivule_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "ember_of_long_night_flint",
+    "localImage": "Images/weapons/sacrificers_staff.png"
   },
   {
     "id": "lightbearing_moonshard",
     "name": "신월의 달빛",
     "rarity": 5,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SilverwareSaw.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SilverwareSaw_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/lightbearing_moonshard.png"
   },
   {
     "id": "silver_sword",
     "name": "실버 소드",
     "rarity": 2,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Silver_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/silver_sword.png"
   },
   {
     "id": "silvershower_heartstrings",
     "name": "심금을 울리는 하얀 비",
     "rarity": 5,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arcdange_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/silvershower_heartstrings.png"
   },
   {
     "id": "amenoma_kageuchi",
     "name": "아메노마 카게우치가타나",
     "rarity": 4,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bakufu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bakufu_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/amenoma_kageuchi.png"
   },
   {
     "id": "amos_bow",
     "name": "아모스의 활",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Amos_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/amos_bow.png"
   },
   {
     "id": "akuoumaru",
     "name": "아쿠오마루",
     "rarity": 4,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/akuoumaru.png"
   },
   {
     "id": "mistsplitter_reforged",
     "name": "안개를 가르는 회광",
     "rarity": 5,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/mistsplitter_reforged.png"
   },
   {
     "id": "dark_iron_sword",
     "name": "암철검",
     "rarity": 3,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Darker_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/dark_iron_sword.png"
   },
   {
     "id": "aqua_simulacra",
     "name": "약수",
     "rarity": 5,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Kirin_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/aqua_simulacra.png"
   },
   {
     "id": "ring_of_yaxche",
     "name": "약스체의 고리",
     "rarity": 4,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Isikhulu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Isikhulu_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/ring_of_yaxche.png"
   },
   {
     "id": "calamity_of_eshu",
     "name": "에슈의 재앙",
     "rarity": 4,
-    "materialId": "delirious_decadence_of_the_sacred_lord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SacrificialNgombe.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_SacrificialNgombe_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "delirious_decadence_of_the_sacred_lord",
+    "localImage": "Images/weapons/calamity_of_eshu.png"
   },
   {
     "id": "flute_of_ezpitzal",
     "name": "에스피찰의 피리",
     "rarity": 4,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Isikhulu_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/flute_of_ezpitzal.png"
   },
   {
     "id": "harbinger_of_dawn",
     "name": "여명신검",
     "rarity": 3,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dawn.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dawn_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/harbinger_of_dawn.png"
   },
   {
     "id": "the_daybreak_chronicles",
     "name": "여명이 트는 역사",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/the_daybreak_chronicles.png"
   },
   {
     "id": "travelers_handy_sword",
     "name": "여행자의 검",
     "rarity": 3,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Traveler_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/travelers_handy_sword.png"
   },
   {
     "id": "tome_of_the_eternal_flow",
     "name": "영원히 샘솟는 법전",
     "rarity": 5,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Iudex.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Iudex_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/tome_of_the_eternal_flow.png"
   },
   {
     "id": "engulfing_lightning",
     "name": "예초의 번개",
     "rarity": 5,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/engulfing_lightning.png"
   },
   {
     "id": "freedom_sworn",
     "name": "오래된 자유의 서약",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/freedom_sworn.png"
   },
   {
     "id": "royal_greatsword",
     "name": "왕실의 대검",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Theocrat_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/royal_greatsword.png"
   },
   {
     "id": "royal_grimoire",
     "name": "왕실의 비전록",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Theocrat.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Theocrat_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/royal_grimoire.png"
   },
   {
     "id": "royal_longsword",
     "name": "왕실의 장검",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Theocrat.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Theocrat_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/royal_longsword.png"
   },
   {
     "id": "royal_bow",
     "name": "왕실의 장궁",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Theocrat_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/royal_bow.png"
   },
   {
     "id": "royal_spear",
     "name": "왕실의 장창",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Theocrat.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Theocrat_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/royal_spear.png"
   },
   {
     "id": "kings_squire",
     "name": "왕의 측근",
     "rarity": 4,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arakalari.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arakalari_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/kings_squire.png"
   },
   {
     "id": "old_mercs_pal",
     "name": "용병 중검",
     "rarity": 2,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Oyaji_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/old_mercs_pal.png"
   },
   {
     "id": "dragonspine_spear",
     "name": "용의 척추",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Everfrost.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Everfrost_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/dragonspine_spear.png"
   },
   {
     "id": "lions_roar",
     "name": "용의 포효",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/lions_roar.png"
   },
   {
     "id": "dragons_bane",
     "name": "용학살창",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/dragons_bane.png"
   },
   {
     "id": "uraku_misugiri",
     "name": "우라쿠의 미스기리",
     "rarity": 5,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Needle.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Needle_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/uraku_misugiri.png"
   },
   {
     "id": "sapwood_blade",
     "name": "원목 검",
     "rarity": 4,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Arakalari.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Arakalari_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/sapwood_blade.png"
   },
   {
     "id": "dialogues_of_the_desert_sages",
     "name": "위대한 사막 현자의 대답",
     "rarity": 4,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Caduceus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Caduceus_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/dialogues_of_the_desert_sages.png"
   },
   {
     "id": "mitternachts_waltz",
     "name": "유야의 왈츠",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/mitternachts_waltz.png"
   },
   {
     "id": "crescent_pike",
     "name": "유월창",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Exotic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Exotic_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/crescent_pike.png"
   },
   {
     "id": "the_widsith",
     "name": "음유시인의 악장",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/the_widsith.png"
   },
   {
     "id": "serpent_spine",
     "name": "이무기 검",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kione.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Kione_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/serpent_spine.png"
   },
   {
     "id": "otherworldly_story",
     "name": "이세계 여행기",
     "rarity": 3,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Lightnov_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/otherworldly_story.png"
   },
   {
     "id": "frostbearer",
     "name": "인동의 열매",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Everfrost.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Everfrost_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/frostbearer.png"
   },
   {
     "id": "solar_pearl",
     "name": "일월의 정수",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Resurrection.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Resurrection_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/solar_pearl.png"
   },
   {
     "id": "light_of_foliar_incision",
     "name": "잎을 가르는 빛",
     "rarity": 5,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Ayus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Ayus_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/light_of_foliar_incision.png"
   },
   {
     "id": "fleuve_cendre_ferryman",
     "name": "잿빛의 강 뱃사공",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Machination_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/fleuve_cendre_ferryman.png"
   },
   {
     "id": "staff_of_the_scarlet_sands",
     "name": "적색 사막의 지팡이",
     "rarity": 5,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Deshret_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/staff_of_the_scarlet_sands.png"
   },
   {
     "id": "messenger",
     "name": "전령",
     "rarity": 3,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Msg_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/messenger.png"
   },
   {
     "id": "the_stringless",
     "name": "절현",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/the_stringless.png"
   },
   {
     "id": "sacrificial_greatsword",
     "name": "제례 대검",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/sacrificial_greatsword.png"
   },
   {
     "id": "sacrificial_sword",
     "name": "제례검",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/sacrificial_sword.png"
   },
   {
     "id": "sacrificial_fragments",
     "name": "제례의 악장",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/sacrificial_fragments.png"
   },
   {
     "id": "sacrificial_bow",
     "name": "제례활",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/sacrificial_bow.png"
   },
   {
     "id": "sacrificial_jade",
     "name": "제사의 옥",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Yue.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Yue_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/sacrificial_jade.png"
   },
   {
     "id": "elegy_for_the_end",
     "name": "종말 탄식의 노래",
     "rarity": 5,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/elegy_for_the_end.png"
   },
   {
     "id": "cinnabar_spindle",
     "name": "진사의 방추",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Opus_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/cinnabar_spindle.png"
   },
   {
     "id": "reliquary_of_truth",
     "name": "진실의 함",
     "rarity": 5,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Sistrum.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Sistrum_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/reliquary_of_truth.png"
   },
   {
     "id": "luxurious_sea_lord",
     "name": "진주를 문 해황",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_MillenniaTuna.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_MillenniaTuna_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/luxurious_sea_lord.png"
   },
   {
     "id": "cool_steel",
     "name": "차가운 칼날",
     "rarity": 3,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/cool_steel.png"
   },
   {
     "id": "summit_shaper",
     "name": "참봉의 칼날",
     "rarity": 5,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/summit_shaper.png"
   },
   {
     "id": "prototype_rancour",
     "name": "참암 프로토타입",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Proto.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Proto_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/prototype_rancour.png"
   },
   {
     "id": "azurelight",
     "name": "창백한 섬광",
     "rarity": 5,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_OuterSword_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/azurelight.png"
   },
   {
     "id": "prospectors_shovel",
     "name": "채굴의 삽",
     "rarity": 4,
-    "materialId": "ember_of_long_night_flint"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Ilmarinen_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "ember_of_long_night_flint",
+    "localImage": "Images/weapons/prospectors_shovel.png"
   },
   {
     "id": "skyward_blade",
     "name": "천공의 검",
     "rarity": 5,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/skyward_blade.png"
   },
   {
     "id": "skyward_pride",
     "name": "천공의 긍지",
     "rarity": 5,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/skyward_pride.png"
   },
   {
     "id": "skyward_harp",
     "name": "천공의 날개",
     "rarity": 5,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/skyward_harp.png"
   },
   {
     "id": "skyward_atlas",
     "name": "천공의 두루마리",
     "rarity": 5,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/skyward_atlas.png"
   },
   {
     "id": "skyward_spine",
     "name": "천공의 마루",
     "rarity": 5,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/skyward_spine.png"
   },
   {
     "id": "lithic_blade",
     "name": "천암고검",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/lithic_blade.png"
   },
   {
     "id": "lithic_spear",
     "name": "천암장창",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/lithic_spear.png"
   },
   {
     "id": "iron_point",
     "name": "철촉창",
     "rarity": 2,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Rod.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Rod_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/iron_point.png"
   },
   {
     "id": "the_viridescent_hunt",
     "name": "청록의 사냥활",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Viridescent_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/the_viridescent_hunt.png"
   },
   {
     "id": "beginners_protector",
     "name": "초보자의 장창",
     "rarity": 1,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Gewalt.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Gewalt_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/beginners_protector.png"
   },
   {
     "id": "the_first_great_magic",
     "name": "최초의 대마술",
     "rarity": 5,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Pledge.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Pledge_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/the_first_great_magic.png"
   },
   {
     "id": "cloudforged",
     "name": "축운",
     "rarity": 4,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ultimatum.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Ultimatum_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/cloudforged.png"
   },
   {
     "id": "fruit_of_fulfillment",
     "name": "충만의 열매",
     "rarity": 4,
-    "materialId": "oasis_gardens_reminiscence"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Arakalari.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Arakalari_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "oasis_gardens_reminiscence",
+    "localImage": "Images/weapons/fruit_of_fulfillment.png"
   },
   {
     "id": "the_black_sword",
     "name": "칠흑검",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Bloodstained_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/the_black_sword.png"
   },
   {
     "id": "sequence_of_solitude",
     "name": "침묵의 사격",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Stinger.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Stinger_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/sequence_of_solitude.png"
   },
   {
     "id": "kagotsurube_isshin",
     "name": "카고츠루베 잇신",
     "rarity": 4,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Youtou.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Youtou_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/kagotsurube_isshin.png"
   },
   {
     "id": "kaguras_verity",
     "name": "카구라의 진의",
     "rarity": 5,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/kaguras_verity.png"
   },
   {
     "id": "katsuragikiri_nagamasa",
     "name": "카츠라기를 벤 나가마사",
     "rarity": 4,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Bakufu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Bakufu_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/katsuragikiri_nagamasa.png"
   },
   {
     "id": "xiphos_moonlight",
     "name": "크시포스의 달빛",
     "rarity": 4,
-    "materialId": "copper_talisman_of_the_forest_dew"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "copper_talisman_of_the_forest_dew",
+    "localImage": "Images/weapons/xiphos_moonlight.png"
   },
   {
     "id": "kitain_cross_spear",
     "name": "키타인 십자창",
     "rarity": 4,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Bakufu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Bakufu_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/kitain_cross_spear.png"
   },
   {
     "id": "a_thousand_blazing_suns",
     "name": "타오르는 천 개의 태양",
     "rarity": 5,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_RadianceSword.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_RadianceSword_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/a_thousand_blazing_suns.png"
   },
   {
     "id": "slingshot",
     "name": "탄궁",
     "rarity": 3,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/slingshot.png"
   },
   {
     "id": "prospectors_drill",
     "name": "탐사용 드릴",
     "rarity": 4,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mechanic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Mechanic_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/prospectors_drill.png"
   },
   {
     "id": "tulaytullahs_remembrance",
     "name": "툴레이툴라의 기억",
     "rarity": 5,
-    "materialId": "echo_of_scorching_might"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Alaya.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Alaya_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "echo_of_scorching_might",
+    "localImage": "Images/weapons/tulaytullahs_remembrance.png"
   },
   {
     "id": "tidal_shadow",
     "name": "파도 그림자 대검",
     "rarity": 4,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Vorpal.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Vorpal_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/tidal_shadow.png"
   },
   {
     "id": "wavebreakers_fin",
     "name": "파도 베는 지느러미",
     "rarity": 4,
-    "materialId": "mask_of_the_wicked_lieutenant"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Maria_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mask_of_the_wicked_lieutenant",
+    "localImage": "Images/weapons/wavebreakers_fin.png"
   },
   {
     "id": "hamayumi",
     "name": "파마궁",
     "rarity": 4,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Bakufu_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/hamayumi.png"
   },
   {
     "id": "fractured_halo",
     "name": "파멸의 빛고리",
     "rarity": 5,
-    "materialId": "blazing_sacrificial_hearts_terror"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Perdix.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Perdix_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "blazing_sacrificial_hearts_terror",
+    "localImage": "Images/weapons/fractured_halo.png"
   },
   {
     "id": "verdict",
     "name": "판정",
     "rarity": 5,
-    "materialId": "fragment_of_an_ancient_chord"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_GoldenVerdict.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_GoldenVerdict_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fragment_of_an_ancient_chord",
+    "localImage": "Images/weapons/verdict.png"
   },
   {
     "id": "favonius_sword",
     "name": "페보니우스 검",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/favonius_sword.png"
   },
   {
     "id": "favonius_greatsword",
     "name": "페보니우스 대검",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/favonius_greatsword.png"
   },
   {
     "id": "favonius_codex",
     "name": "페보니우스 비전",
     "rarity": 4,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/favonius_codex.png"
   },
   {
     "id": "favonius_lance",
     "name": "페보니우스 장창",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/favonius_lance.png"
   },
   {
     "id": "favonius_warbow",
     "name": "페보니우스 활",
     "rarity": 4,
-    "materialId": "fetters_of_the_dandelion_gladiator"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "fetters_of_the_dandelion_gladiator",
+    "localImage": "Images/weapons/favonius_warbow.png"
   },
   {
     "id": "predator",
     "name": "포식자",
     "rarity": 4,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Predator_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/predator.png"
   },
   {
     "id": "pocket_grimoire",
     "name": "포켓 주술서",
     "rarity": 2,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pocket.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pocket_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/pocket_grimoire.png"
   },
   {
     "id": "ash_graven_drinking_horn",
     "name": "푸른 문양 뿔잔",
     "rarity": 4,
-    "materialId": "night_winds_mystic_consideration"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_ConchSprayer.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_ConchSprayer_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "night_winds_mystic_consideration",
+    "localImage": "Images/weapons/ash_graven_drinking_horn.png"
   },
   {
     "id": "bloodsoaked_ruins",
     "name": "피로 물든 성",
     "rarity": 5,
-    "materialId": "ember_of_long_night_flint"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_TummaLyhty.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_TummaLyhty_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "ember_of_long_night_flint",
+    "localImage": "Images/weapons/bloodsoaked_ruins.png"
   },
   {
     "id": "the_flute",
     "name": "피리검",
     "rarity": 4,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/the_flute.png"
   },
   {
     "id": "haran_geppaku_futsu",
     "name": "하란 월백의 후츠",
     "rarity": 5,
-    "materialId": "narukamis_wisdom"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "narukamis_wisdom",
+    "localImage": "Images/weapons/haran_geppaku_futsu.png"
   },
   {
     "id": "hakushin_ring",
     "name": "하쿠신의 고리",
     "rarity": 4,
-    "materialId": "coral_branch_of_a_distant_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Bakufu_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "coral_branch_of_a_distant_sea",
+    "localImage": "Images/weapons/hakushin_ring.png"
   },
   {
     "id": "apprentices_notes",
     "name": "학도의 노트",
     "rarity": 1,
-    "materialId": "tile_of_decarabians_tower"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Apprentice_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "tile_of_decarabians_tower",
+    "localImage": "Images/weapons/apprentices_notes.png"
   },
   {
     "id": "cranes_echoing_call",
     "name": "학의 여음",
     "rarity": 5,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_MountainGale_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/cranes_echoing_call.png"
   },
   {
     "id": "finale_of_the_deep",
     "name": "해연의 피날레",
     "rarity": 4,
-    "materialId": "dross_of_pure_sacred_dewdrop"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Vorpal.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Vorpal_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "dross_of_pure_sacred_dewdrop",
+    "localImage": "Images/weapons/finale_of_the_deep.png"
   },
   {
     "id": "cashflow_supervision",
     "name": "현금 흐름 감독",
     "rarity": 5,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Wheatley.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Wheatley_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/cashflow_supervision.png"
   },
   {
     "id": "ballad_of_the_fjords",
     "name": "협만의 노래",
     "rarity": 4,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Shanty.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Shanty_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/ballad_of_the_fjords.png"
   },
   {
     "id": "staff_of_homa",
     "name": "호마의 지팡이",
     "rarity": 5,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Homa_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/staff_of_homa.png"
   },
   {
     "id": "primordial_jade_winged_spear",
     "name": "화박연",
     "rarity": 5,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Morax_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/primordial_jade_winged_spear.png"
   },
   {
     "id": "prototype_amber",
     "name": "황금 호박 프로토타입",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Proto_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/prototype_amber.png"
   },
   {
     "id": "waster_greatsword",
     "name": "훈련용 대검",
     "rarity": 1,
-    "materialId": "boreal_wolfs_milk_tooth"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Aniki_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/waster_greatsword.png"
   },
   {
     "id": "debate_club",
     "name": "훌륭한 대화수단",
     "rarity": 3,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/debate_club.png"
   },
   {
     "id": "portable_power_saw",
     "name": "휴대용 체인톱",
     "rarity": 4,
-    "materialId": "broken_goblet_of_the_pristine_sea"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Mechanic.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Mechanic_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "broken_goblet_of_the_pristine_sea",
+    "localImage": "Images/weapons/portable_power_saw.png"
   },
   {
     "id": "black_tassel",
     "name": "흑술창",
     "rarity": 3,
-    "materialId": "grain_of_aerosiderite"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "grain_of_aerosiderite",
+    "localImage": "Images/weapons/black_tassel.png"
   },
   {
     "id": "blackcliff_warbow",
     "name": "흑암 배틀 보우",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Blackrock_Awaken.png"
+    ],
+    "type": "bow",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/blackcliff_warbow.png"
   },
   {
     "id": "blackcliff_longsword",
     "name": "흑암 장검",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blackrock.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Blackrock_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/blackcliff_longsword.png"
   },
   {
     "id": "blackcliff_agate",
     "name": "흑암 홍옥",
     "rarity": 4,
-    "materialId": "luminous_sands_from_guyun"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Blackrock.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Blackrock_Awaken.png"
+    ],
+    "type": "catalyst",
+    "materialId": "luminous_sands_from_guyun",
+    "localImage": "Images/weapons/blackcliff_agate.png"
   },
   {
     "id": "blackcliff_slasher",
     "name": "흑암참도",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Blackrock.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Blackrock_Awaken.png"
+    ],
+    "type": "claymore",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/blackcliff_slasher.png"
   },
   {
     "id": "blackcliff_pole",
     "name": "흑암창",
     "rarity": 4,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Blackrock.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Blackrock_Awaken.png"
+    ],
+    "type": "polearm",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/blackcliff_pole.png"
   },
   {
     "id": "fillet_blade",
     "name": "흘호 생선회칼",
     "rarity": 3,
-    "materialId": "mist_veiled_lead_elixir"
+    "image": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Sashimi.png",
+    "imageAlternatives": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Sashimi_Awaken.png"
+    ],
+    "type": "sword",
+    "materialId": "mist_veiled_lead_elixir",
+    "localImage": "Images/weapons/fillet_blade.png"
   }
 ]

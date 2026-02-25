@@ -2,27 +2,36 @@ import SwiftUI
 import UIKit
 
 struct CharacterImageView: View {
+    enum PlaceholderStyle {
+        case character
+        case symbol(String)
+    }
+
     let localImagePath: String?
     let imageURLs: [String]
     let size: CGFloat
+    let placeholderStyle: PlaceholderStyle
     @StateObject private var loader = CharacterImageLoader()
 
     init(imageURL: String, size: CGFloat) {
         self.localImagePath = nil
         self.imageURLs = [imageURL]
         self.size = size
+        self.placeholderStyle = .character
     }
 
     init(imageURLs: [String], size: CGFloat) {
         self.localImagePath = nil
         self.imageURLs = imageURLs
         self.size = size
+        self.placeholderStyle = .character
     }
 
-    init(localImagePath: String?, imageURLs: [String], size: CGFloat) {
+    init(localImagePath: String?, imageURLs: [String], size: CGFloat, placeholderStyle: PlaceholderStyle = .character) {
         self.localImagePath = localImagePath
         self.imageURLs = imageURLs
         self.size = size
+        self.placeholderStyle = placeholderStyle
     }
 
     var body: some View {
@@ -49,12 +58,18 @@ struct CharacterImageView: View {
     private var placeholder: some View {
         ZStack {
             Color(.secondarySystemBackground)
-            if let paimon = Self.paimonPlaceholder {
-                Image(uiImage: paimon)
-                    .resizable()
-                    .scaledToFill()
-            } else {
-                Image(systemName: "person.fill")
+            switch placeholderStyle {
+            case .character:
+                if let paimon = Self.paimonPlaceholder {
+                    Image(uiImage: paimon)
+                        .resizable()
+                        .scaledToFill()
+                } else {
+                    Image(systemName: "person.fill")
+                        .foregroundStyle(.secondary)
+                }
+            case .symbol(let systemName):
+                Image(systemName: systemName)
                     .foregroundStyle(.secondary)
             }
         }

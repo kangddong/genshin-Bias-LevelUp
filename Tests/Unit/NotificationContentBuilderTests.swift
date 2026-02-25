@@ -7,7 +7,7 @@ final class NotificationContentBuilderTests: XCTestCase {
         let payload = builder.build(
             day: .friday,
             characters: [Character(id: "a", image: "", imageAlternatives: nil, name: "A", element: .anemo, nation: .mondstadt, materialId: "m")],
-            weapons: [Weapon(id: "w", name: "W", rarity: 4, materialId: "m")]
+            weapons: [Weapon(id: "w", name: "W", rarity: 4, type: .bow, materialId: "m")]
         )
 
         XCTAssertEqual(payload.title, "원신 요일 비경 알림")

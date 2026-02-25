@@ -7,6 +7,7 @@ final class AppStore: ObservableObject {
     @Published var selection: UserSelection
     @Published var preference: NotificationPreference
     @Published var characterFilter: CharacterFilter
+    @Published var weaponFilter: WeaponFilterMode = .all
     @Published var notificationStatus: NotificationAuthorizationStatus = .notDetermined
     @Published var errorMessage: String?
 
@@ -85,6 +86,10 @@ final class AppStore: ObservableObject {
         preferenceStore.savePreference(preference)
     }
 
+    func updateWeaponFilter(_ filter: WeaponFilterMode) {
+        weaponFilter = filter
+    }
+
     func updateNotificationTime(date: Date) {
         let calendar = Calendar.current
         preference.hour = calendar.component(.hour, from: date)
@@ -111,6 +116,10 @@ final class AppStore: ObservableObject {
 
     var filteredCharacters: [Character] {
         characterFilter.apply(to: catalog.characters)
+    }
+
+    var filteredWeapons: [Weapon] {
+        catalog.weapons.filter { weaponFilter.contains($0) }
     }
 
     func timeAsDate() -> Date {
