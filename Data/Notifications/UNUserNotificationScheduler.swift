@@ -49,12 +49,14 @@ actor UNUserNotificationScheduler: NotificationScheduling {
         var deviceCalendar = Calendar(identifier: .gregorian)
         deviceCalendar.timeZone = .autoupdatingCurrent
         let now = Date()
+        let selectedCharacterCount = selection.selectedCharacterIDs.count
+        let selectedWeaponCount = selection.selectedWeaponIDs.count
 
         for dayOffset in 0..<scheduleHorizonDays {
             guard let targetDay = deviceCalendar.date(byAdding: .day, value: dayOffset, to: now) else { continue }
             let localStartOfDay = deviceCalendar.startOfDay(for: targetDay)
 
-            for slot in slots {
+            for (slotIndex, slot) in slots.enumerated() {
                 guard let scheduledDate = scheduledDate(on: localStartOfDay, hour: slot.hour, minute: slot.minute, calendar: deviceCalendar),
                       scheduledDate > now else { continue }
 
@@ -85,18 +87,24 @@ actor UNUserNotificationScheduler: NotificationScheduling {
                     selectedIDs: selection.selectedWeaponIDs
                 ).count
 
-                let hasAvailableItems = !todayCharacters.isEmpty || !todayWeapons.isEmpty || tomorrowCharacterCount > 0 || tomorrowWeaponCount > 0
-                guard hasAvailableItems else { continue }
-
-                let payload = contentBuilder.build(
+                let inactiveDays = inactiveDayCount(
+                    from: preference.lastAppOpenAt,
+                    to: scheduledDate,
+                    calendar: deviceCalendar
+                )
+                guard let payload = contentBuilder.build(
                     day: serverDay,
                     todayCharacters: todayCharacters,
                     todayWeapons: todayWeapons,
                     tomorrowCharacterCount: tomorrowCharacterCount,
                     tomorrowWeaponCount: tomorrowWeaponCount,
                     favoriteCharacterID: selection.favoriteCharacterID,
-                    favoriteWeaponID: selection.favoriteWeaponID
-                )
+                    favoriteWeaponID: selection.favoriteWeaponID,
+                    selectedCharacterCount: selectedCharacterCount,
+                    selectedWeaponCount: selectedWeaponCount,
+                    inactiveDays: inactiveDays,
+                    isFirstSlotOfDay: slotIndex == 0
+                ) else { continue }
 
                 let requestIdentifier = requestIdentifier(for: scheduledDate, calendar: deviceCalendar)
                 let request = makeRequest(
@@ -176,6 +184,14 @@ actor UNUserNotificationScheduler: NotificationScheduling {
         let hour = components.hour ?? 0
         let minute = components.minute ?? 0
         return String(format: "\(identifierPrefix)%04d%02d%02d-%02d%02d", year, month, day, hour, minute)
+    }
+
+    private func inactiveDayCount(from lastAppOpenAt: Date?, to fireDate: Date, calendar: Calendar) -> Int {
+        guard let lastAppOpenAt else { return 0 }
+        let start = calendar.startOfDay(for: lastAppOpenAt)
+        let end = calendar.startOfDay(for: fireDate)
+        let diff = calendar.dateComponents([.day], from: start, to: end).day ?? 0
+        return max(0, diff)
     }
 
     private func attachment(for imagePath: String, requestIdentifier: String) -> UNNotificationAttachment? {

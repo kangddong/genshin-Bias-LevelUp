@@ -14,6 +14,15 @@ final class AppStoreTests: XCTestCase {
         XCTAssertEqual(store.notificationStatus, .authorized)
     }
 
+    func testLoadCatalogStoresLastAppOpenAt() async {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let store = makeStore(notificationScheduler: scheduler)
+
+        await store.loadCatalogIfNeeded()
+
+        XCTAssertNotNil(store.preference.lastAppOpenAt)
+    }
+
     func testToggleCharacterRoutesToSystemSettingsWhenPermissionDenied() async {
         let scheduler = MockNotificationScheduler(initialStatus: .denied, statusAfterRequest: .denied)
         let settingsRouter = MockSettingsRouter()
@@ -82,6 +91,26 @@ final class AppStoreTests: XCTestCase {
         XCTAssertFalse(store.notificationTimeSlots.contains(where: { $0.id == removedID }))
     }
 
+    func testFilteredCharactersPrioritizesSelectedFirst() async {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let store = makeStore(notificationScheduler: scheduler)
+
+        await store.loadCatalogIfNeeded()
+        store.toggleCharacter("lisa")
+
+        XCTAssertEqual(store.filteredCharacters.map(\.id), ["lisa", "amber", "kaeya"])
+    }
+
+    func testFilteredWeaponsPrioritizesSelectedFirst() async {
+        let scheduler = MockNotificationScheduler(initialStatus: .authorized, statusAfterRequest: .authorized)
+        let store = makeStore(notificationScheduler: scheduler)
+
+        await store.loadCatalogIfNeeded()
+        store.toggleWeapon("homa")
+
+        XCTAssertEqual(store.filteredWeapons.map(\.id), ["homa", "favonius_sword"])
+    }
+
     private func makeStore(
         notificationScheduler: MockNotificationScheduler,
         settingsRouter: MockSettingsRouter = MockSettingsRouter(),
@@ -116,9 +145,21 @@ final class AppStoreTests: XCTestCase {
 private struct StubGameDataRepository: GameDataRepository {
     func loadCatalog() async throws -> GameCatalog {
         GameCatalog(
-            characters: [Character(id: "amber", image: "", imageAlternatives: nil, name: "앰버", element: .pyro, nation: .mondstadt, materialId: "mat")],
-            weapons: [],
-            schedules: [DomainSchedule(materialId: "mat", materialName: "재료", domainName: "비경", weekdays: [.monday], kind: .character)]
+            characters: [
+                Character(id: "amber", image: "", imageAlternatives: nil, name: "앰버", element: .pyro, nation: .mondstadt, materialId: "mat1"),
+                Character(id: "lisa", image: "", imageAlternatives: nil, name: "리사", element: .electro, nation: .mondstadt, materialId: "mat1"),
+                Character(id: "kaeya", image: "", imageAlternatives: nil, name: "케이아", element: .cryo, nation: .mondstadt, materialId: "mat2")
+            ],
+            weapons: [
+                Weapon(id: "favonius_sword", name: "페보니우스 검", rarity: 4, type: .sword, materialId: "mat3"),
+                Weapon(id: "homa", name: "호마의 지팡이", rarity: 5, type: .polearm, materialId: "mat4")
+            ],
+            schedules: [
+                DomainSchedule(materialId: "mat1", materialName: "재료1", domainName: "비경", weekdays: [.monday], kind: .character),
+                DomainSchedule(materialId: "mat2", materialName: "재료2", domainName: "비경", weekdays: [.tuesday], kind: .character),
+                DomainSchedule(materialId: "mat3", materialName: "재료3", domainName: "비경", weekdays: [.wednesday], kind: .weapon),
+                DomainSchedule(materialId: "mat4", materialName: "재료4", domainName: "비경", weekdays: [.thursday], kind: .weapon)
+            ]
         )
     }
 }

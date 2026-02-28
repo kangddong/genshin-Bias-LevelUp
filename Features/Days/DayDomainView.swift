@@ -64,10 +64,13 @@ struct DayDomainView: View {
                             DSSectionHeader(title: "캐릭터 육성", trailing: "\(displayedCharacters.count)개")
                             LazyVGrid(columns: columns, spacing: 12) {
                                 ForEach(displayedCharacters) { character in
-                                    CharacterCardView(
+                                    DayCharacterCardView(
                                         character: character,
+                                        schedule: store.catalog.schedulesByMaterial[character.materialId],
                                         isSelected: store.selection.selectedCharacterIDs.contains(character.id),
-                                        onToggle: { store.toggleCharacter(character.id) }
+                                        isFavorite: store.selection.favoriteCharacterID == character.id,
+                                        onToggle: { store.toggleCharacter(character.id) },
+                                        onToggleFavorite: { store.setFavoriteCharacter(character.id) }
                                     )
                                 }
                             }
@@ -77,10 +80,13 @@ struct DayDomainView: View {
                             DSSectionHeader(title: "무기 돌파", trailing: "\(displayedWeapons.count)개")
                             LazyVGrid(columns: columns, spacing: 12) {
                                 ForEach(displayedWeapons) { weapon in
-                                    WeaponCardView(
+                                    DayWeaponCardView(
                                         weapon: weapon,
+                                        schedule: store.catalog.schedulesByMaterial[weapon.materialId],
                                         isSelected: store.selection.selectedWeaponIDs.contains(weapon.id),
-                                        onToggle: { store.toggleWeapon(weapon.id) }
+                                        isFavorite: store.selection.favoriteWeaponID == weapon.id,
+                                        onToggle: { store.toggleWeapon(weapon.id) },
+                                        onToggleFavorite: { store.setFavoriteWeapon(weapon.id) }
                                     )
                                 }
                             }
@@ -140,6 +146,87 @@ struct DayDomainView: View {
             return "무기 검색"
         case .selected, .all:
             return "캐릭터/무기 검색"
+        }
+    }
+}
+
+private struct DayCharacterCardView: View {
+    let character: Character
+    let schedule: DomainSchedule?
+    let isSelected: Bool
+    let isFavorite: Bool
+    let onToggle: () -> Void
+    let onToggleFavorite: () -> Void
+
+    var body: some View {
+        DSCard {
+            VStack(alignment: .leading, spacing: 10) {
+                CardIdentitySection(
+                    localImagePath: character.localImage,
+                    imageURLs: character.imageCandidates,
+                    title: character.name,
+                    subtitle: "\(character.element.displayName) / \(character.nation.displayName)",
+                    imageSize: 42
+                ) {
+                    SelectionCheckButton(isSelected: isSelected, onTap: onToggle)
+                }
+
+                NavigationLink {
+                    CharacterDetailView(
+                        character: character,
+                        schedule: schedule,
+                        isSelected: isSelected,
+                        onToggle: onToggle,
+                        isFavorite: isFavorite,
+                        onToggleFavorite: onToggleFavorite
+                    )
+                } label: {
+                    Text("자세히 보기")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(DSSecondaryButtonStyle())
+            }
+        }
+    }
+}
+
+private struct DayWeaponCardView: View {
+    let weapon: Weapon
+    let schedule: DomainSchedule?
+    let isSelected: Bool
+    let isFavorite: Bool
+    let onToggle: () -> Void
+    let onToggleFavorite: () -> Void
+
+    var body: some View {
+        DSCard {
+            VStack(alignment: .leading, spacing: 10) {
+                CardIdentitySection(
+                    localImagePath: weapon.localImage,
+                    imageURLs: weapon.imageCandidates,
+                    title: weapon.name,
+                    subtitle: "\(weapon.type.displayName) / ★\(weapon.rarity)",
+                    imageSize: 42,
+                    placeholderStyle: .symbol("shield.lefthalf.filled")
+                ) {
+                    SelectionCheckButton(isSelected: isSelected, onTap: onToggle)
+                }
+
+                NavigationLink {
+                    WeaponDetailView(
+                        weapon: weapon,
+                        schedule: schedule,
+                        isSelected: isSelected,
+                        onToggle: onToggle,
+                        isFavorite: isFavorite,
+                        onToggleFavorite: onToggleFavorite
+                    )
+                } label: {
+                    Text("자세히 보기")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(DSSecondaryButtonStyle())
+            }
         }
     }
 }

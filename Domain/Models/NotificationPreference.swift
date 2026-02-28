@@ -15,15 +15,18 @@ struct NotificationTimeSlot: Codable, Equatable, Sendable, Identifiable, Hashabl
 struct NotificationPreference: Codable, Equatable, Sendable {
     var timeSlots: [NotificationTimeSlot]
     var defaultFilter: CharacterFilter
+    var lastAppOpenAt: Date?
 
     static let `default` = NotificationPreference(
         timeSlots: [NotificationTimeSlot(hour: 20, minute: 0)],
-        defaultFilter: .default
+        defaultFilter: .default,
+        lastAppOpenAt: nil
     )
 
     private enum CodingKeys: String, CodingKey {
         case timeSlots
         case defaultFilter
+        case lastAppOpenAt
 
         // Legacy keys kept for backward compatibility.
         case hour
@@ -31,14 +34,16 @@ struct NotificationPreference: Codable, Equatable, Sendable {
         case enabledWeekdays
     }
 
-    init(timeSlots: [NotificationTimeSlot], defaultFilter: CharacterFilter) {
+    init(timeSlots: [NotificationTimeSlot], defaultFilter: CharacterFilter, lastAppOpenAt: Date? = nil) {
         self.timeSlots = timeSlots
         self.defaultFilter = defaultFilter
+        self.lastAppOpenAt = lastAppOpenAt
     }
 
     init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         defaultFilter = try container.decodeIfPresent(CharacterFilter.self, forKey: .defaultFilter) ?? .default
+        lastAppOpenAt = try container.decodeIfPresent(Date.self, forKey: .lastAppOpenAt)
 
         if let decodedSlots = try container.decodeIfPresent([NotificationTimeSlot].self, forKey: .timeSlots),
            !decodedSlots.isEmpty {
@@ -55,5 +60,6 @@ struct NotificationPreference: Codable, Equatable, Sendable {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(timeSlots, forKey: .timeSlots)
         try container.encode(defaultFilter, forKey: .defaultFilter)
+        try container.encodeIfPresent(lastAppOpenAt, forKey: .lastAppOpenAt)
     }
 }

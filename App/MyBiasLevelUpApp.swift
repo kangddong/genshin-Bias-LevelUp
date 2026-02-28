@@ -9,6 +9,7 @@ struct MyBiasLevelUpApp: App {
         WindowGroup {
             RootTabView()
                 .environmentObject(store)
+                .preferredColorScheme(.light)
                 .task {
                     await store.loadCatalogIfNeeded()
                 }

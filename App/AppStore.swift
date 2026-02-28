@@ -60,6 +60,7 @@ final class AppStore: ObservableObject {
 
         do {
             catalog = try await dataRepository.loadCatalog()
+            markAppOpened()
             notificationStatus = await notificationScheduler.authorizationStatus()
             if notificationStatus == .notDetermined {
                 _ = await notificationScheduler.requestAuthorization()
@@ -72,6 +73,7 @@ final class AppStore: ObservableObject {
     }
 
     func refreshNotificationStatus() async {
+        markAppOpened()
         notificationStatus = await notificationScheduler.authorizationStatus()
         await rescheduleIfPossible()
     }
@@ -143,11 +145,11 @@ final class AppStore: ObservableObject {
     }
 
     var filteredCharacters: [Character] {
-        characterFilter.apply(to: catalog.characters)
+        selectedFirstCharacters(from: characterFilter.apply(to: catalog.characters))
     }
 
     var filteredWeapons: [Weapon] {
-        catalog.weapons.filter { weaponFilter.contains($0) }
+        selectedFirstWeapons(from: catalog.weapons.filter { weaponFilter.contains($0) })
     }
 
     var notificationTimeSlots: [NotificationTimeSlot] {
@@ -216,6 +218,23 @@ final class AppStore: ObservableObject {
             return false
         }
         return true
+    }
+
+    private func selectedFirstCharacters(from characters: [Character]) -> [Character] {
+        let selected = characters.filter { selection.selectedCharacterIDs.contains($0.id) }
+        let unselected = characters.filter { !selection.selectedCharacterIDs.contains($0.id) }
+        return selected + unselected
+    }
+
+    private func selectedFirstWeapons(from weapons: [Weapon]) -> [Weapon] {
+        let selected = weapons.filter { selection.selectedWeaponIDs.contains($0.id) }
+        let unselected = weapons.filter { !selection.selectedWeaponIDs.contains($0.id) }
+        return selected + unselected
+    }
+
+    private func markAppOpened(now: Date = Date()) {
+        preference.lastAppOpenAt = now
+        preferenceStore.savePreference(preference)
     }
 
     private func rescheduleIfPossible() async {
