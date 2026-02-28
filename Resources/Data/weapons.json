@@ -432,6 +432,18 @@
     "localImage": "Images/weapons/wolfs_gravestone.png"
   },
   {
+    "id": "ballad_of_the_mighty_wolf",
+    "name": "늑대의 무용담",
+    "rarity": 5,
+    "image": "https://i.namu.wiki/i/cspCNYuhlNCCoWEXyhkJykw-6Acxh7KgRe-Jx60eXRmZEHiYJ5XdCv3BtqIkGoa_fiPxqPJdakcJJbgXHYrpat8nXHJ3ghq7S-PRbI9Jn19ItciyOYBeGyMlSEE1hD2D93FwvG97rahdhV6BtmirmA.webp",
+    "imageAlternatives": [
+      "https://i.namu.wiki/i/XuG0KDMp5olsMfyWS_mGgk7tYaNVjYbadNOLypqEuMBSiCL-XQIhe6tqr7LlhII4mg8HU7LgDOciqD6H1wsw38qaJsTsXu4xRhiG9mBPKPa820LHL1UQicfcToS84tOlzLSLpkVSHNjOjiwcY9tjfQ.webp"
+    ],
+    "type": "claymore",
+    "materialId": "boreal_wolfs_milk_tooth",
+    "localImage": "Images/weapons/ballad_of_the_mighty_wolf.png"
+  },
+  {
     "id": "moonpiercer",
     "name": "달을 꿰뚫는 화살",
     "rarity": 4,

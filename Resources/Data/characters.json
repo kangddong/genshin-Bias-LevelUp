@@ -393,6 +393,16 @@
     "localImage": "Images/characters/varesa.png"
   },
   {
+    "id": "varka",
+    "image": "https://i.namu.wiki/i/Vg_Ltes9eJU7d7SD5zB2dvcT4dib6Heyc0hFeByEL1wtz38BozIMLkVnwvRKblUQ1hldLsEhji4_IOPEiW1Mcd9SMArNBSYI5VKSEXI3hII06la5IBgVsSa945xIkSkTxB7ozmfw4WfxF2D_dBCMEw.webp",
+    "imageAlternatives": [],
+    "name": "바르카",
+    "element": "anemo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/varka.png"
+  },
+  {
     "id": "barbara",
     "image": "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png",
     "imageAlternatives": [
@@ -825,6 +835,66 @@
     "nation": "mondstadt",
     "materialId": "teachings_of_freedom",
     "localImage": "Images/characters/amber.png"
+  },
+  {
+    "id": "traveler_hydro",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (물)",
+    "element": "hydro",
+    "nation": "fontaine",
+    "materialId": "teachings_of_justice",
+    "localImage": "Images/characters/traveler_hydro.png"
+  },
+  {
+    "id": "traveler_anemo",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (바람)",
+    "element": "anemo",
+    "nation": "mondstadt",
+    "materialId": "teachings_of_freedom",
+    "localImage": "Images/characters/traveler_anemo.png"
+  },
+  {
+    "id": "traveler_geo",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (바위)",
+    "element": "geo",
+    "nation": "liyue",
+    "materialId": "teachings_of_prosperity",
+    "localImage": "Images/characters/traveler_geo.png"
+  },
+  {
+    "id": "traveler_electro",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (번개)",
+    "element": "electro",
+    "nation": "inazuma",
+    "materialId": "teachings_of_transience",
+    "localImage": "Images/characters/traveler_electro.png"
+  },
+  {
+    "id": "traveler_pyro",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (불)",
+    "element": "pyro",
+    "nation": "natlan",
+    "materialId": "teachings_of_contention",
+    "localImage": "Images/characters/traveler_pyro.png"
+  },
+  {
+    "id": "traveler_dendro",
+    "image": "https://i.namu.wiki/i/s3QIHy9ZtJXlHbqD7JvUFxoD1v5cAYCAV5gSzdcKQPCzvuPMQzFvDVbXP6UbZIAjy8hFblzhzMjO7RcS_bSiSjeVOCqsb9QPdiipqnJKlCd7QE7eQ4H5ZKNSP3hkWIDvqvSfC8oLS-ySKmNHascrgg.webp",
+    "imageAlternatives": [],
+    "name": "여행자 (풀)",
+    "element": "dendro",
+    "nation": "sumeru",
+    "materialId": "teachings_of_admonition",
+    "localImage": "Images/characters/traveler_dendro.png"
   },
   {
     "id": "yanfei",
